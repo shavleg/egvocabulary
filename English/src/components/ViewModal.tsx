@@ -31,6 +31,15 @@ const ViewModal: React.FC<ViewModalProps> = ({
   // Progress bar animation using custom hook
   const progress = useProgressBar(currentDelay, currentIndex)
 
+  // Fade and slide animation state
+  const [isVisible, setIsVisible] = React.useState(true)
+
+  React.useEffect(() => {
+    setIsVisible(false)
+    const timer = setTimeout(() => setIsVisible(true), 200)
+    return () => clearTimeout(timer)
+  }, [currentIndex])
+
   return (
     <Modal onClose={onClose} className="view-modal-content" showCloseButton={false}>
       <div className="view-close-btn">
@@ -43,7 +52,13 @@ const ViewModal: React.FC<ViewModalProps> = ({
         {currentIndex + 1} / {totalWords}
       </div>
 
-      <div className="view-content">
+      <div 
+        className="view-content" 
+        style={{ 
+          opacity: isVisible ? 1 : 0,
+          transform: isVisible ? 'translateY(0) scale(1)' : 'translateY(20px) scale(0.95)'
+        }}
+      >
         <div className="view-primary">
           {primaryText}
           {viewLanguage === 'english' && pronunciation && (

@@ -6,6 +6,7 @@
   min-width: 600px;
   min-height: 400px;
   padding: 40px;
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .view-close-btn {
@@ -34,7 +35,7 @@
   gap: 30px;
   width: 100%;
   margin-top: 30px;
-  animation: slideUp 0.5s ease;
+  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .view-primary {
@@ -42,13 +43,14 @@
   font-weight: 700;
   color: #333;
   text-align: center;
-  animation: scaleIn 0.5s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .view-divider {
   font-size: 2rem;
   color: #999;
   font-weight: 300;
+  transition: opacity 0.3s ease;
 }
 
 .view-secondary {
@@ -56,7 +58,7 @@
   font-weight: 600;
   color: #555;
   text-align: center;
-  animation: scaleIn 0.5s ease 0.2s both;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .view-pronunciation {
@@ -65,6 +67,7 @@
   font-style: italic;
   margin-top: 10px;
   font-weight: 400;
+  transition: opacity 0.3s ease;
 }
 
 .view-progress-bar {
