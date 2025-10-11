@@ -11,10 +11,12 @@ export const useView = (words: TranslateItem[]) => {
 
   // Determine delay based on text length
   const getDelay = (word: TranslateItem, language: TestLanguage): number => {
-    const text = language === 'english' ? word.english : word.georgian
-    // Small word/phrase (< 15 chars) = 5 seconds
-    // Medium/Large (>= 15 chars) = 10 seconds
-    return text.length < 15 ? 5000 : 10000
+    const englishLength = word.english.length
+    const georgianLength = word.georgian.length
+    
+    // If both are less than 15 chars = 5 seconds
+    // If either is >= 15 chars = 10 seconds
+    return (englishLength < 15 && georgianLength < 15) ? 5000 : 10000
   }
 
   const startView = useCallback((selectedWords?: TranslateItem[]) => {
