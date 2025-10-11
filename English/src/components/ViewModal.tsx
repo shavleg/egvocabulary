@@ -1,6 +1,7 @@
 import React from 'react'
 import Modal from './Modal'
 import Button from './Button'
+import { useProgressBar } from '../hooks/useProgressBar'
 import './ViewModal.css'
 import { TranslateItem, TestLanguage } from '../models/translateItem'
 
@@ -9,6 +10,7 @@ interface ViewModalProps {
   viewLanguage: TestLanguage
   currentIndex: number
   totalWords: number
+  currentDelay: number
   onClose: () => void
 }
 
@@ -16,7 +18,8 @@ const ViewModal: React.FC<ViewModalProps> = ({
   currentWord, 
   viewLanguage, 
   currentIndex, 
-  totalWords, 
+  totalWords,
+  currentDelay,
   onClose 
 }) => {
   if (!currentWord) return null
@@ -24,6 +27,9 @@ const ViewModal: React.FC<ViewModalProps> = ({
   const primaryText = viewLanguage === 'english' ? currentWord.english : currentWord.georgian
   const secondaryText = viewLanguage === 'english' ? currentWord.georgian : currentWord.english
   const pronunciation = currentWord.pronunciation
+
+  // Progress bar animation using custom hook
+  const progress = useProgressBar(currentDelay, currentIndex)
 
   return (
     <Modal onClose={onClose} className="view-modal-content" showCloseButton={false}>
@@ -53,6 +59,14 @@ const ViewModal: React.FC<ViewModalProps> = ({
             <div className="view-pronunciation">{pronunciation}</div>
           )}
         </div>
+      </div>
+      
+      {/* Progress bar */}
+      <div className="view-progress-bar">
+        <div 
+          className="view-progress-bar-fill" 
+          style={{ width: `${progress}%` }}
+        />
       </div>
     </Modal>
   )

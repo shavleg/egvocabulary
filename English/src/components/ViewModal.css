@@ -67,6 +67,25 @@
   font-weight: 400;
 }
 
+.view-progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+}
+
+.view-progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #764ba2 0%, #ff6b6b 100%);
+  transition: width 0.016s linear;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 10px rgba(255, 107, 107, 0.4);
+}
+
 @keyframes slideUp {
   from {
     opacity: 0;

@@ -257,6 +257,7 @@ function App() {
           viewLanguage={viewHook.viewLanguage}
           currentIndex={viewHook.currentViewIndex}
           totalWords={viewHook.totalViewWords}
+          currentDelay={viewHook.currentDelay}
           onClose={viewHook.closeView}
         />
       )}

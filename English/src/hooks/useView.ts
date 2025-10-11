@@ -82,6 +82,7 @@ export const useView = (words: TranslateItem[]) => {
     currentWord: viewWords[currentViewIndex],
     currentViewIndex,
     totalViewWords: viewWords.length,
+    currentDelay: viewWords[currentViewIndex] ? getDelay(viewWords[currentViewIndex]) : 5000,
     startView,
     startViewWithLanguage,
     closeView,
