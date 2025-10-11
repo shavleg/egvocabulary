@@ -38,20 +38,60 @@ const WordsTable: React.FC<WordsTableProps> = ({
   const handleLongPress = (word: TranslateItem) => {
     let timeoutId: number | null = null
     let isLongPress = false
+    let startX = 0
+    let startY = 0
+    let hasMoved = false
 
     const start = (e: React.MouseEvent | React.TouchEvent) => {
       isLongPress = false
+      hasMoved = false
+      
+      // Get initial position
+      if ('touches' in e) {
+        startX = e.touches[0].clientX
+        startY = e.touches[0].clientY
+      } else {
+        startX = e.clientX
+        startY = e.clientY
+      }
+
       timeoutId = window.setTimeout(() => {
-        isLongPress = true
-        onWordLongPress(word)
+        if (!hasMoved) {
+          isLongPress = true
+          onWordLongPress(word)
+        }
       }, 500)
+    }
+
+    const move = (e: React.MouseEvent | React.TouchEvent) => {
+      let currentX = 0
+      let currentY = 0
+
+      if ('touches' in e) {
+        currentX = e.touches[0].clientX
+        currentY = e.touches[0].clientY
+      } else {
+        currentX = e.clientX
+        currentY = e.clientY
+      }
+
+      // If moved more than 10px, consider it a scroll
+      const deltaX = Math.abs(currentX - startX)
+      const deltaY = Math.abs(currentY - startY)
+      
+      if (deltaX > 10 || deltaY > 10) {
+        hasMoved = true
+        if (timeoutId) {
+          clearTimeout(timeoutId)
+        }
+      }
     }
 
     const end = () => {
       if (timeoutId) {
         clearTimeout(timeoutId)
       }
-      if (!isLongPress) {
+      if (!isLongPress && !hasMoved && isSelectionMode) {
         onWordClick(word)
       }
     }
@@ -65,9 +105,11 @@ const WordsTable: React.FC<WordsTableProps> = ({
     return {
       onMouseDown: start,
       onMouseUp: end,
+      onMouseMove: move,
       onMouseLeave: cancel,
       onTouchStart: start,
       onTouchEnd: end,
+      onTouchMove: move,
       onTouchCancel: cancel,
     }
   }
