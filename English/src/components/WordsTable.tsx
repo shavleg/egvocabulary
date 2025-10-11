@@ -35,6 +35,43 @@ const WordsTable: React.FC<WordsTableProps> = ({
   isWordKnown,
   onToggleKnownWord
 }) => {
+  const handleLongPress = (word: TranslateItem) => {
+    let timeoutId: number | null = null
+    let isLongPress = false
+
+    const start = (e: React.MouseEvent | React.TouchEvent) => {
+      isLongPress = false
+      timeoutId = window.setTimeout(() => {
+        isLongPress = true
+        onWordLongPress(word)
+      }, 500)
+    }
+
+    const end = () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+      if (!isLongPress) {
+        onWordClick(word)
+      }
+    }
+
+    const cancel = () => {
+      if (timeoutId) {
+        clearTimeout(timeoutId)
+      }
+    }
+
+    return {
+      onMouseDown: start,
+      onMouseUp: end,
+      onMouseLeave: cancel,
+      onTouchStart: start,
+      onTouchEnd: end,
+      onTouchCancel: cancel,
+    }
+  }
+
   return (
     <div className="table-container">
       <table className="words-table">
@@ -62,23 +99,7 @@ const WordsTable: React.FC<WordsTableProps> = ({
                   ${isSelectionMode ? 'selection-mode' : ''}
                   ${isKnown ? 'known-word-row' : ''}
                 `}
-                onMouseDown={() => {
-                  const timeoutId = setTimeout(() => {
-                    onWordLongPress(word)
-                  }, 500)
-                  
-                  const handleMouseUp = () => {
-                    clearTimeout(timeoutId)
-                    onWordClick(word)
-                  }
-                  
-                  const handleMouseLeave = () => {
-                    clearTimeout(timeoutId)
-                  }
-                  
-                  document.addEventListener('mouseup', handleMouseUp, { once: true })
-                  document.addEventListener('mouseleave', handleMouseLeave, { once: true })
-                }}
+                {...handleLongPress(word)}
               >
                 <td className="english-cell">
                   {hideEnglish ? hideText(word.english) : highlightText(word.english, searchTerm)}
