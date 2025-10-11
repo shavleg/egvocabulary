@@ -163,6 +163,7 @@ function App() {
               <Button 
                 variant="danger"
                 icon
+                className="clear-selection-btn"
                 onClick={selectionHook.exitSelectionMode}
                 title={translations.ge.exitSelectionMode}
               >
