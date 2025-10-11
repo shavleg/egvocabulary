@@ -10,7 +10,7 @@ export const useView = (words: TranslateItem[]) => {
   const [isPlaying, setIsPlaying] = useState(false)
 
   // Determine delay based on text length
-  const getDelay = (word: TranslateItem, language: TestLanguage): number => {
+  const getDelay = (word: TranslateItem): number => {
     const englishLength = word.english.length
     const georgianLength = word.georgian.length
     
@@ -60,7 +60,7 @@ export const useView = (words: TranslateItem[]) => {
     }, 1000)
 
     // Move to next word after delay
-    const delay = getDelay(currentWord, viewLanguage)
+    const delay = getDelay(currentWord)
     const nextTimeout = setTimeout(() => {
       if (currentViewIndex < viewWords.length - 1) {
         setCurrentViewIndex(prev => prev + 1)
