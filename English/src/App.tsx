@@ -5,10 +5,9 @@ import './App.css'
 import SearchBar from './components/SearchBar'
 import ColumnToggles from './components/ColumnToggles'
 import WordsTable from './components/WordsTable'
-import LanguageSelectionModal from './components/LanguageSelectionModal'
+import LanguageModal from './components/LanguageModal'
 import QuestionModal from './components/QuestionModal'
 import ResultsModal from './components/ResultsModal'
-import ViewLanguageModal from './components/ViewLanguageModal'
 import ViewModal from './components/ViewModal'
 
 // Hooks
@@ -205,7 +204,9 @@ function App() {
 
       {/* Test Modals */}
       {testHook.showLanguageModal && (
-        <LanguageSelectionModal 
+        <LanguageModal 
+          title="ტესტის ენის არჩევა"
+          description="რომელ ენაზე გსურთ კითხვების მიღება?"
           onSelectLanguage={testHook.selectTestLanguage}
           onClose={testHook.closeModals}
         />
@@ -240,7 +241,9 @@ function App() {
 
       {/* View Modals */}
       {viewHook.showViewModal && !viewHook.isPlaying && (
-        <ViewLanguageModal 
+        <LanguageModal 
+          title="ნახვის რეჟიმის არჩევა"
+          description="რომელ ენაზე გსურთ სიტყვების ნახვა?"
           onSelectLanguage={viewHook.startViewWithLanguage}
           onClose={viewHook.closeView}
         />

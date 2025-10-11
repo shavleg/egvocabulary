@@ -2,17 +2,24 @@ import React from 'react'
 import './Modal.css'
 import { TestLanguage } from '../models/translateItem'
 
-interface ViewLanguageModalProps {
+interface LanguageModalProps {
+  title: string
+  description: string
   onSelectLanguage: (language: TestLanguage) => void
   onClose: () => void
 }
 
-const ViewLanguageModal: React.FC<ViewLanguageModalProps> = ({ onSelectLanguage, onClose }) => {
+const LanguageModal: React.FC<LanguageModalProps> = ({ 
+  title, 
+  description, 
+  onSelectLanguage, 
+  onClose 
+}) => {
   return (
     <div className="modal-overlay">
       <div className="modal">
-        <h2>ნახვის რეჟიმის არჩევა</h2>
-        <p>რომელ ენაზე გსურთ სიტყვების ნახვა?</p>
+        <h2>{title}</h2>
+        <p>{description}</p>
         <div className="language-buttons">
           <button 
             className="language-btn"
@@ -35,5 +42,5 @@ const ViewLanguageModal: React.FC<ViewLanguageModalProps> = ({ onSelectLanguage,
   )
 }
 
-export default ViewLanguageModal
+export default LanguageModal
 
