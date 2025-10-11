@@ -52,12 +52,10 @@ export const useView = (words: TranslateItem[]) => {
     const currentWord = viewWords[currentViewIndex]
     if (!currentWord) return
 
-    // Speak the word with 1 second delay
-    const speakTimeout = setTimeout(() => {
-      const textToSpeak = viewLanguage === 'english' ? currentWord.english : currentWord.georgian
-      const lang = viewLanguage === 'english' ? 'en-US' : 'ka-GE'
-      speakText(textToSpeak, lang)
-    }, 1000)
+    // Speak the word with 1 second delay (only for English words)
+    const speakTimeout = viewLanguage === 'english' ? setTimeout(() => {
+      speakText(currentWord.english, 'en-US')
+    }, 1000) : undefined
 
     // Move to next word after delay
     const delay = getDelay(currentWord)
@@ -71,7 +69,7 @@ export const useView = (words: TranslateItem[]) => {
     }, delay)
 
     return () => {
-      clearTimeout(speakTimeout)
+      if (speakTimeout) clearTimeout(speakTimeout)
       clearTimeout(nextTimeout)
     }
   }, [isPlaying, showViewModal, viewWords, currentViewIndex, viewLanguage, closeView])
