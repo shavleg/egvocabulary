@@ -39,7 +39,8 @@ function App() {
   const knownWordsHook = useKnownWords()
 
   useEffect(() => {
-    fetch('words.json')
+    const basePath = import.meta.env.BASE_URL || '/'
+    fetch(`${basePath}words.json`)
       .then<TranslateItem[]>(response => response.json())
       .then(data => {
         setWords(data)
