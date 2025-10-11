@@ -8,11 +8,14 @@ import WordsTable from './components/WordsTable'
 import LanguageSelectionModal from './components/LanguageSelectionModal'
 import QuestionModal from './components/QuestionModal'
 import ResultsModal from './components/ResultsModal'
+import ViewLanguageModal from './components/ViewLanguageModal'
+import ViewModal from './components/ViewModal'
 
 // Hooks
 import { useTest } from './hooks/useTest'
 import { useSelection } from './hooks/useSelection'
 import { useKnownWords } from './hooks/useKnownWords'
+import { useView } from './hooks/useView'
 
 // Utils
 import { highlightText, hideText } from './utils/textUtils'
@@ -37,6 +40,9 @@ function App() {
   
   // Use known words hook
   const knownWordsHook = useKnownWords()
+  
+  // Use view hook
+  const viewHook = useView(words)
 
   useEffect(() => {
     const basePath = import.meta.env.BASE_URL || '/'
@@ -107,6 +113,11 @@ function App() {
     }
   }
 
+  const handleStartView = () => {
+    const selectedWords = selectionHook.getSelectedWordsForTest()
+    viewHook.startView(selectedWords.length > 0 ? selectedWords : undefined)
+  }
+
   const scrollToFirstMatch = useCallback(() => {
     if (filteredWords.length > 0 && tableRef.current) {
       setTimeout(() => {
@@ -143,7 +154,10 @@ function App() {
           </h1>
           <div className="test-controls">
             <button className="test-btn" onClick={handleStartTestWithSelection}>
-              {translations.ge.testButton}
+              🧪 ტესტი
+            </button>
+            <button className="view-btn" onClick={handleStartView}>
+              👁️ ნახვა
             </button>
             {selectionHook.isSelectionMode && (
               <button 
@@ -221,6 +235,24 @@ function App() {
           onBackToTest={testHook.backToTest}
           onRestartTest={testHook.startTest}
           onClose={testHook.closeModals}
+        />
+      )}
+
+      {/* View Modals */}
+      {viewHook.showViewModal && !viewHook.isPlaying && (
+        <ViewLanguageModal 
+          onSelectLanguage={viewHook.startViewWithLanguage}
+          onClose={viewHook.closeView}
+        />
+      )}
+
+      {viewHook.showViewModal && viewHook.isPlaying && (
+        <ViewModal 
+          currentWord={viewHook.currentWord}
+          viewLanguage={viewHook.viewLanguage}
+          currentIndex={viewHook.currentViewIndex}
+          totalWords={viewHook.totalViewWords}
+          onClose={viewHook.closeView}
         />
       )}
     </div>
