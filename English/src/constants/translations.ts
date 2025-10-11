@@ -11,7 +11,6 @@ export const translations = {
     selectLanguagePrompt: "რომელ ენაზე გსურთ კითხვების მიღება?",
     georgianToEnglish: "🇬🇪 ქართული → ინგლისური",
     englishToGeorgian: "🇺🇸 ინგლისური → ქართული",
-    question: "კითხვა",
     totalQuestions: "სულ",
     showResults: "📊 მანახე შედეგები",
     enterAnswer: "ჩაწერეთ თქვენი პასუხი...",

@@ -49,7 +49,7 @@ const QuestionModal: React.FC<QuestionModalProps> = ({
 
       <div className="question-header">
         <h2>
-          {translations.ge.question} {currentQuestionIndex + 1} /{" "}
+          {currentQuestionIndex + 1} /{" "}
           {totalQuestions}
         </h2>
       </div>
