@@ -139,12 +139,7 @@ function App() {
       <div className="container">
         <div className="header-container">
           <h1 className="title">
-            {translations.ge.dictionaryTitle} - ({searchTerm && filteredWords.length + ` ${translations.ge.of} `}{words.length} {translations.ge.wordsCount})
-            {knownWordsHook.getKnownWordsCount() > 0 && (
-              <span className="known-words-badge"> 
-                ✓ {knownWordsHook.getKnownWordsCount()} ვიცი
-              </span>
-            )}
+            {translations.ge.dictionaryTitle} - ({searchTerm && filteredWords.length + ` ${translations.ge.of} `}{words.length} {translations.ge.wordsCount}{knownWordsHook.getKnownWordsCount() > 0 && ` | ✓ ${knownWordsHook.getKnownWordsCount()} ვიცი`})
           </h1>
           <div className="test-controls">
             <button className="test-btn" onClick={handleStartTestWithSelection}>
