@@ -2,6 +2,7 @@ import React from 'react'
 import Modal from './Modal'
 import Button from './Button'
 import { useProgressBar } from '../hooks/useProgressBar'
+import { translations } from '../constants/translations'
 import './ViewModal.css'
 import { TranslateItem, TestLanguage } from '../models/translateItem'
 
@@ -12,6 +13,7 @@ interface ViewModalProps {
   totalWords: number
   currentDelay: number
   onClose: () => void
+  onNext: () => void
 }
 
 const ViewModal: React.FC<ViewModalProps> = ({ 
@@ -20,7 +22,8 @@ const ViewModal: React.FC<ViewModalProps> = ({
   currentIndex, 
   totalWords,
   currentDelay,
-  onClose 
+  onClose,
+  onNext
 }) => {
   if (!currentWord) return null
 
@@ -76,6 +79,17 @@ const ViewModal: React.FC<ViewModalProps> = ({
         </div>
       </div>
       
+      {/* Next button above progress bar */}
+      <div className="view-next-btn-wrapper">
+        <Button 
+          variant="primary" 
+          size="small" 
+          onClick={onNext}
+        >
+          {translations.ge.next} →
+        </Button>
+      </div>
+
       {/* Progress bar */}
       <div className="view-progress-bar">
         <div 

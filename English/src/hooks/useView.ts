@@ -45,6 +45,15 @@ export const useView = (words: TranslateItem[]) => {
     setViewWords([])
   }, [])
 
+  const nextWord = useCallback(() => {
+    if (currentViewIndex < viewWords.length - 1) {
+      setCurrentViewIndex(prev => prev + 1)
+    } else {
+      // Last word, close modal
+      closeView()
+    }
+  }, [currentViewIndex, viewWords.length, closeView])
+
   // Auto-play logic
   useEffect(() => {
     if (!isPlaying || !showViewModal || viewWords.length === 0) return
@@ -84,6 +93,7 @@ export const useView = (words: TranslateItem[]) => {
     startView,
     startViewWithLanguage,
     closeView,
+    nextWord,
     isPlaying
   }
 }

@@ -259,6 +259,7 @@ function App() {
           totalWords={viewHook.totalViewWords}
           currentDelay={viewHook.currentDelay}
           onClose={viewHook.closeView}
+          onNext={viewHook.nextWord}
         />
       )}
     </div>
