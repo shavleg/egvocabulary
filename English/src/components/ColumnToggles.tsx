@@ -1,6 +1,6 @@
 import React from 'react'
 import './ColumnToggles.css'
-import { translations } from '../constants/translations'
+import { translations } from '../constants'
 
 interface ColumnTogglesProps {
   hideEnglish: boolean

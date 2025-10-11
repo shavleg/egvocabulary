@@ -1,8 +1,7 @@
 import React from 'react'
-import Modal from './Modal'
-import Button from './Button'
 import './Modal.css'
-import { TestLanguage } from '../models/translateItem'
+import { Modal, Button } from './index'
+import type { TestLanguage } from '../models'
 
 interface LanguageModalProps {
   title: string

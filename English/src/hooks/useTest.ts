@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { TranslateItem, TranslateAnswer, TestLanguage } from '../models/translateItem'
+import type { TranslateItem, TranslateAnswer, TestLanguage } from '../models'
 
 export const useTest = (words: TranslateItem[]) => {
   // Test states

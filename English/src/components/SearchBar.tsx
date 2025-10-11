@@ -1,6 +1,6 @@
 import React from 'react'
 import './SearchBar.css'
-import { translations } from '../constants/translations'
+import { translations } from '../constants'
 
 interface SearchBarProps {
   searchTerm: string

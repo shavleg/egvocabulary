@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { TranslateItem } from '../models/translateItem'
+import type { TranslateItem } from '../models'
 
 export const useSelection = () => {
   const [selectedWords, setSelectedWords] = useState<TranslateItem[]>([])

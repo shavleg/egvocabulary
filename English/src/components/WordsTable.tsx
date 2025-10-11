@@ -1,8 +1,8 @@
 import React from 'react'
 import './WordsTable.css'
-import { TranslateItem } from '../models/translateItem'
-import { translations } from '../constants/translations'
-import PronunciationCell from './PronunciationCell'
+import type { TranslateItem } from '../models'
+import { translations } from '../constants'
+import { PronunciationCell } from './index'
 interface WordsTableProps {
   filteredWords: TranslateItem[]
   searchTerm: string

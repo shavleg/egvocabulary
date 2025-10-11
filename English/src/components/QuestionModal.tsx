@@ -1,9 +1,8 @@
 import React from "react";
-import Modal from "./Modal";
-import Button from "./Button";
 import "./Modal.css";
-import { TranslateItem, TestLanguage } from "../models/translateItem";
-import { translations } from "../constants/translations";
+import { Modal, Button } from "./index";
+import type { TranslateItem, TestLanguage } from "../models";
+import { translations } from "../constants";
 
 interface QuestionModalProps {
   currentQuestionIndex: number;

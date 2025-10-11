@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react'
-import { TranslateItem, TestLanguage } from '../models/translateItem'
-import { speakText } from '../utils/speechUtils'
-import { requestWakeLock, releaseWakeLock, setupWakeLockReacquisition } from '../utils/wakeLockUtils'
+import type { TranslateItem, TestLanguage } from '../models'
+import { speakText, requestWakeLock, releaseWakeLock, setupWakeLockReacquisition } from '../utils'
+import { VIEW_TIMINGS, DEFAULT_DELAY } from '../constants'
 
 export const useView = (words: TranslateItem[]) => {
   const [showViewModal, setShowViewModal] = useState(false)
@@ -17,9 +17,11 @@ export const useView = (words: TranslateItem[]) => {
     const englishLength = word.english.length
     const georgianLength = word.georgian.length
     
-    // If both are less than 15 chars = 5 seconds
-    // If either is >= 15 chars = 10 seconds
-    return (englishLength < 15 && georgianLength < 15) ? 5000 : 10000
+    // If both are less than threshold = short delay
+    // If either is >= threshold = long delay
+    return (englishLength < VIEW_TIMINGS.CHAR_THRESHOLD && georgianLength < VIEW_TIMINGS.CHAR_THRESHOLD) 
+      ? VIEW_TIMINGS.SHORT_WORD_DELAY 
+      : VIEW_TIMINGS.LONG_WORD_DELAY
   }
 
   const startView = useCallback((selectedWords?: TranslateItem[]) => {
@@ -90,10 +92,10 @@ export const useView = (words: TranslateItem[]) => {
     const currentWord = viewWords[currentViewIndex]
     if (!currentWord) return
 
-    // Speak the word with 1 second delay (only for English words and if not muted)
+    // Speak the word with delay (only for English words and if not muted)
     const speakTimeout = setTimeout(() => {
       speakText(currentWord.english, 'en-US')
-    }, 1000)
+    }, VIEW_TIMINGS.SPEECH_DELAY)
 
     return () => {
       clearTimeout(speakTimeout)
@@ -129,7 +131,7 @@ export const useView = (words: TranslateItem[]) => {
     currentWord: viewWords[currentViewIndex],
     currentViewIndex,
     totalViewWords: viewWords.length,
-    currentDelay: viewWords[currentViewIndex] ? getDelay(viewWords[currentViewIndex]) : 5000,
+    currentDelay: viewWords[currentViewIndex] ? getDelay(viewWords[currentViewIndex]) : DEFAULT_DELAY,
     startView,
     startViewWithLanguage,
     closeView,

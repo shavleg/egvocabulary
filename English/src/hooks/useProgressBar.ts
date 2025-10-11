@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { PROGRESS_BAR } from '../constants'
 
 export const useProgressBar = (duration: number, key: number | string, isPaused: boolean) => {
   const [progress, setProgress] = useState(0)
@@ -18,13 +19,13 @@ export const useProgressBar = (duration: number, key: number | string, isPaused:
     
     const interval = setInterval(() => {
       const elapsed = Date.now() - effectiveStartTime
-      const newProgress = Math.min((elapsed / duration) * 100, 100)
+      const newProgress = Math.min((elapsed / duration) * PROGRESS_BAR.MAX_PROGRESS, PROGRESS_BAR.MAX_PROGRESS)
       setProgress(newProgress)
       
-      if (newProgress >= 100) {
+      if (newProgress >= PROGRESS_BAR.MAX_PROGRESS) {
         clearInterval(interval)
       }
-    }, 16) // ~60fps for smooth animation
+    }, PROGRESS_BAR.UPDATE_INTERVAL)
 
     return () => clearInterval(interval)
   }, [duration, isPaused, startTime, pausedTime])

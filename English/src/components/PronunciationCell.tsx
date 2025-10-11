@@ -1,7 +1,7 @@
 import React from 'react'
-import { speakText } from '../utils/speechUtils'
-import { translations } from '../constants/translations'
 import './PronunciationCell.css'
+import { speakText } from '../utils'
+import { translations } from '../constants'
 
 interface PronunciationCellProps {
   pronunciation: string

@@ -1,10 +1,9 @@
 import React from 'react'
-import Modal from './Modal'
-import Button from './Button'
-import { useProgressBar } from '../hooks/useProgressBar'
-import { translations } from '../constants/translations'
 import './ViewModal.css'
-import { TranslateItem, TestLanguage } from '../models/translateItem'
+import { Modal, Button } from './index'
+import { useProgressBar } from '../hooks'
+import { translations, VIEW_TIMINGS } from '../constants'
+import type { TranslateItem, TestLanguage } from '../models'
 
 interface ViewModalProps {
   currentWord: TranslateItem | undefined
@@ -47,7 +46,7 @@ const ViewModal: React.FC<ViewModalProps> = ({
 
   React.useEffect(() => {
     setIsVisible(false)
-    const timer = setTimeout(() => setIsVisible(true), 200)
+    const timer = setTimeout(() => setIsVisible(true), VIEW_TIMINGS.WORD_TRANSITION_DELAY)
     return () => clearTimeout(timer)
   }, [currentIndex])
 

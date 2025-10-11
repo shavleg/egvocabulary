@@ -1,27 +1,29 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
+import React from 'react'
 import './App.css'
 
 // Components
-import SearchBar from './components/SearchBar'
-import ColumnToggles from './components/ColumnToggles'
-import WordsTable from './components/WordsTable'
-import LanguageModal from './components/LanguageModal'
-import QuestionModal from './components/QuestionModal'
-import ResultsModal from './components/ResultsModal'
-import ViewModal from './components/ViewModal'
-import Button from './components/Button'
+import {
+  SearchBar,
+  WordsTable,
+  LanguageModal,
+  QuestionModal,
+  ResultsModal,
+  ViewModal,
+  Button
+} from './components'
 
 // Hooks
-import { useTest } from './hooks/useTest'
-import { useSelection } from './hooks/useSelection'
-import { useKnownWords } from './hooks/useKnownWords'
-import { useView } from './hooks/useView'
+import { useTest, useSelection, useKnownWords, useView } from './hooks'
 
 // Utils
-import { highlightText, hideText } from './utils/textUtils'
-import { TranslateItem } from './models/translateItem'
-import { translations } from './constants/translations'
-import React from 'react'
+import { highlightText, hideText } from './utils'
+
+// Models
+import type { TranslateItem } from './models'
+
+// Constants
+import { translations } from './constants'
 
 function App() {
   const [words, setWords] = useState<TranslateItem[]>([])
