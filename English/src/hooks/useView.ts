@@ -10,6 +10,7 @@ export const useView = (words: TranslateItem[]) => {
   const [currentViewIndex, setCurrentViewIndex] = useState(0)
   const [isPlaying, setIsPlaying] = useState(false)
   const [isPaused, setIsPaused] = useState(false)
+  const [isMuted, setIsMuted] = useState(false)
 
   // Determine delay based on text length
   const getDelay = (word: TranslateItem): number => {
@@ -46,6 +47,7 @@ export const useView = (words: TranslateItem[]) => {
     setShowViewModal(false)
     setIsPlaying(false)
     setIsPaused(false)
+    setIsMuted(false)
     setCurrentViewIndex(0)
     setViewWords([])
     // Release wake lock when closing
@@ -54,6 +56,10 @@ export const useView = (words: TranslateItem[]) => {
 
   const togglePause = useCallback(() => {
     setIsPaused(prev => !prev)
+  }, [])
+
+  const toggleMute = useCallback(() => {
+    setIsMuted(prev => !prev)
   }, [])
 
   const nextWord = useCallback(() => {
@@ -76,17 +82,30 @@ export const useView = (words: TranslateItem[]) => {
     return cleanup
   }, [isPlaying])
 
-  // Auto-play logic
+  // Audio play logic (separate from navigation, only on word change)
+  useEffect(() => {
+    if (!isPlaying || !showViewModal || viewWords.length === 0 || isPaused || isMuted) return
+    if (viewLanguage !== 'english') return
+
+    const currentWord = viewWords[currentViewIndex]
+    if (!currentWord) return
+
+    // Speak the word with 1 second delay (only for English words and if not muted)
+    const speakTimeout = setTimeout(() => {
+      speakText(currentWord.english, 'en-US')
+    }, 1000)
+
+    return () => {
+      clearTimeout(speakTimeout)
+    }
+  }, [isPlaying, showViewModal, viewWords, currentViewIndex, viewLanguage, isPaused]) // Removed isMuted from dependencies
+
+  // Auto-navigation logic (independent of mute state)
   useEffect(() => {
     if (!isPlaying || !showViewModal || viewWords.length === 0 || isPaused) return
 
     const currentWord = viewWords[currentViewIndex]
     if (!currentWord) return
-
-    // Speak the word with 1 second delay (only for English words)
-    const speakTimeout = viewLanguage === 'english' ? setTimeout(() => {
-      speakText(currentWord.english, 'en-US')
-    }, 1000) : undefined
 
     // Move to next word after delay
     const delay = getDelay(currentWord)
@@ -100,10 +119,9 @@ export const useView = (words: TranslateItem[]) => {
     }, delay)
 
     return () => {
-      if (speakTimeout) clearTimeout(speakTimeout)
       clearTimeout(nextTimeout)
     }
-  }, [isPlaying, showViewModal, viewWords, currentViewIndex, viewLanguage, closeView, isPaused])
+  }, [isPlaying, showViewModal, viewWords, currentViewIndex, isPaused, closeView])
 
   return {
     showViewModal,
@@ -118,7 +136,9 @@ export const useView = (words: TranslateItem[]) => {
     nextWord,
     isPlaying,
     isPaused,
-    togglePause
+    isMuted,
+    togglePause,
+    toggleMute
   }
 }
 

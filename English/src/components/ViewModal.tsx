@@ -13,9 +13,11 @@ interface ViewModalProps {
   totalWords: number
   currentDelay: number
   isPaused: boolean
+  isMuted: boolean
   onClose: () => void
   onNext: () => void
   onTogglePause: () => void
+  onToggleMute: () => void
 }
 
 const ViewModal: React.FC<ViewModalProps> = ({ 
@@ -25,9 +27,11 @@ const ViewModal: React.FC<ViewModalProps> = ({
   totalWords,
   currentDelay,
   isPaused,
+  isMuted,
   onClose,
   onNext,
-  onTogglePause
+  onTogglePause,
+  onToggleMute
 }) => {
   if (!currentWord) return null
 
@@ -49,7 +53,16 @@ const ViewModal: React.FC<ViewModalProps> = ({
 
   return (
     <Modal onClose={onClose} className="view-modal-content" showCloseButton={false}>
-      <div className="view-close-btn">
+      <div className="view-header-buttons">
+        {viewLanguage === 'english' && (
+          <button 
+            className="view-mute-btn"
+            onClick={onToggleMute}
+            title={isMuted ? "ხმის ჩართვა" : "ხმის გათიშვა"}
+          >
+            {isMuted ? '🔇' : '🔊'}
+          </button>
+        )}
         <Button variant="danger" icon size="small" onClick={onClose}>
           ✕
         </Button>

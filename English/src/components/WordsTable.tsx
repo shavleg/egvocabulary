@@ -18,6 +18,8 @@ interface WordsTableProps {
   onWordClick: (word: TranslateItem) => void
   isWordKnown: (wordEnglish: string) => boolean
   onToggleKnownWord: (wordEnglish: string) => void
+  onToggleEnglish: () => void
+  onToggleGeorgian: () => void
 }
 
 const WordsTable: React.FC<WordsTableProps> = ({ 
@@ -33,7 +35,9 @@ const WordsTable: React.FC<WordsTableProps> = ({
   onWordLongPress,
   onWordClick,
   isWordKnown,
-  onToggleKnownWord
+  onToggleKnownWord,
+  onToggleEnglish,
+  onToggleGeorgian
 }) => {
   const handleLongPress = (word: TranslateItem) => {
     let timeoutId: number | null = null
@@ -119,8 +123,20 @@ const WordsTable: React.FC<WordsTableProps> = ({
       <table className="words-table">
         <thead>
           <tr>
-            <th>{translations.ge.tableHeaderEnglish}</th>
-            <th>{translations.ge.tableHeaderGeorgian}</th>
+            <th 
+              className="clickable-header" 
+              onClick={onToggleEnglish}
+              title={hideEnglish ? `${translations.ge.englishColumn} ${translations.ge.showColumn}` : `${translations.ge.englishColumn} ${translations.ge.hideColumn}`}
+            >
+              {translations.ge.tableHeaderEnglish} {hideEnglish ? '👁️' : '🙈'}
+            </th>
+            <th 
+              className="clickable-header" 
+              onClick={onToggleGeorgian}
+              title={hideGeorgian ? `${translations.ge.georgianColumn} ${translations.ge.showColumn}` : `${translations.ge.georgianColumn} ${translations.ge.hideColumn}`}
+            >
+              {translations.ge.tableHeaderGeorgian} {hideGeorgian ? '👁️' : '🙈'}
+            </th>
             <th>{translations.ge.tableHeaderPronunciation}</th>
             <th>{translations.ge.tableHeaderEnglishExample}</th>
             <th>{translations.ge.tableHeaderGeorgianExample}</th>

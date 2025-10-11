@@ -36,6 +36,16 @@
   border-right: none;
 }
 
+.words-table th.clickable-header {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.words-table th.clickable-header:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .words-table tbody tr {
   transition: background-color 0.3s ease;
   cursor: pointer;

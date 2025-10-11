@@ -23,7 +23,7 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 20px;
   flex-wrap: wrap;
   gap: 20px;
@@ -39,8 +39,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  flex: 1;
-  min-width: 300px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

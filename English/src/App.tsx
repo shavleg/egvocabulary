@@ -152,6 +152,9 @@ function App() {
           <h1 className="title">
             {translations.ge.dictionaryTitle} - ({searchTerm && filteredWords.length + ` / `}{words.length} {translations.ge.wordsCount}{knownWordsHook.getKnownWordsCount() > 0 && ` | ✓ ${knownWordsHook.getKnownWordsCount()} ${translations.ge.iKnow}`})
           </h1>
+        </div>
+        
+        <div className="controls-container">
           <div className="test-controls">
             <Button variant="primary" onClick={handleStartTestWithSelection}>
               {translations.ge.testButton}
@@ -171,15 +174,6 @@ function App() {
               </Button>
             )}
           </div>
-        </div>
-        
-        <div className="controls-container">
-          <ColumnToggles 
-            hideEnglish={hideEnglish}
-            hideGeorgian={hideGeorgian}
-            onToggleEnglish={handleToggleEnglish}
-            onToggleGeorgian={handleToggleGeorgian}
-          />
           
           <SearchBar 
             searchTerm={searchTerm}
@@ -202,6 +196,8 @@ function App() {
           onWordClick={handleWordClick}
           isWordKnown={knownWordsHook.isWordKnown}
           onToggleKnownWord={knownWordsHook.toggleKnownWord}
+          onToggleEnglish={handleToggleEnglish}
+          onToggleGeorgian={handleToggleGeorgian}
         />
       </div>
 
@@ -260,9 +256,11 @@ function App() {
           totalWords={viewHook.totalViewWords}
           currentDelay={viewHook.currentDelay}
           isPaused={viewHook.isPaused}
+          isMuted={viewHook.isMuted}
           onClose={viewHook.closeView}
           onNext={viewHook.nextWord}
           onTogglePause={viewHook.togglePause}
+          onToggleMute={viewHook.toggleMute}
         />
       )}
     </div>

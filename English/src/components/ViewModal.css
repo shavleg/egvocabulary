@@ -9,10 +9,38 @@
   transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-.view-close-btn {
+.view-header-buttons {
   position: absolute;
   top: 15px;
   right: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 10;
+}
+
+.view-mute-btn {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-mute-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.view-mute-btn:active {
+  transform: scale(0.95);
 }
 
 .view-progress {
