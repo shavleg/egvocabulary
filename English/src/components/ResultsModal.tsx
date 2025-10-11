@@ -27,11 +27,14 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
 
   return (
     <Modal onClose={onClose} className="results-modal" showCloseButton={false}>
-      <div className="results-header">
-        <h2>{translations.ge.testResults}</h2>
+      <div className="close-modal-btn-wrapper">
         <Button variant="danger" icon size="small" onClick={onClose}>
           ✕
         </Button>
+      </div>
+      
+      <div className="results-header">
+        <h2>{translations.ge.testResults}</h2>
       </div>
       
       <div className="results-summary">

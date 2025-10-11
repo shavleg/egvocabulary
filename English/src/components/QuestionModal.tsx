@@ -38,18 +38,19 @@ const QuestionModal: React.FC<QuestionModalProps> = ({
 
   return (
     <Modal onClose={onClose} showCloseButton={false}>
+      <div className="close-modal-btn-wrapper">
+        <Button variant="danger" icon size="small" onClick={onClose}>
+          ✕
+        </Button>
+      </div>
+      
       <div className="question-header">
         <h2>{translations.ge.question} {currentQuestionIndex + 1} {translations.ge.of} {totalQuestions}</h2>
-        <div className="question-header-buttons">
-          {hasAnswers && (
-            <Button variant="warning" size="small" onClick={onShowResults}>
-              {translations.ge.showResults}
-            </Button>
-          )}
-          <Button variant="danger" icon size="small" onClick={onClose}>
-            ✕
+        {hasAnswers && (
+          <Button variant="warning" size="small" onClick={onShowResults}>
+            {translations.ge.showResults}
           </Button>
-        </div>
+        )}
       </div>
       
       <div className="question-content">

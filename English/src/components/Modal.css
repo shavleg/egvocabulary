@@ -58,12 +58,6 @@
   margin-bottom: 30px;
 }
 
-.question-header-buttons {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 
 .question-content h3 {
   color: #333;
@@ -117,9 +111,6 @@
 }
 
 .results-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 30px;
 }
 
@@ -273,11 +264,6 @@
   }
   
   
-  .question-header-buttons {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-  }
   
   
   .results-list {
