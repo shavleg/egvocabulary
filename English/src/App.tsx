@@ -39,7 +39,7 @@ function App() {
   const knownWordsHook = useKnownWords()
 
   useEffect(() => {
-    fetch('/words.json')
+    fetch('words.json')
       .then<TranslateItem[]>(response => response.json())
       .then(data => {
         setWords(data)
