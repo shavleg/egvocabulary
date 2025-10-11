@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { TranslateItem, TestLanguage } from '../models/translateItem'
 import { speakText } from '../utils/speechUtils'
+import { requestWakeLock, releaseWakeLock, setupWakeLockReacquisition } from '../utils/wakeLockUtils'
 
 export const useView = (words: TranslateItem[]) => {
   const [showViewModal, setShowViewModal] = useState(false)
@@ -8,6 +9,7 @@ export const useView = (words: TranslateItem[]) => {
   const [viewWords, setViewWords] = useState<TranslateItem[]>([])
   const [currentViewIndex, setCurrentViewIndex] = useState(0)
   const [isPlaying, setIsPlaying] = useState(false)
+  const [isPaused, setIsPaused] = useState(false)
 
   // Determine delay based on text length
   const getDelay = (word: TranslateItem): number => {
@@ -36,13 +38,22 @@ export const useView = (words: TranslateItem[]) => {
   const startViewWithLanguage = useCallback((language: TestLanguage) => {
     setViewLanguage(language)
     setIsPlaying(true)
+    // Request wake lock to keep screen on
+    requestWakeLock()
   }, [])
 
   const closeView = useCallback(() => {
     setShowViewModal(false)
     setIsPlaying(false)
+    setIsPaused(false)
     setCurrentViewIndex(0)
     setViewWords([])
+    // Release wake lock when closing
+    releaseWakeLock()
+  }, [])
+
+  const togglePause = useCallback(() => {
+    setIsPaused(prev => !prev)
   }, [])
 
   const nextWord = useCallback(() => {
@@ -54,9 +65,20 @@ export const useView = (words: TranslateItem[]) => {
     }
   }, [currentViewIndex, viewWords.length, closeView])
 
+  // Wake lock re-acquisition on visibility change
+  useEffect(() => {
+    if (!isPlaying) return
+    
+    const cleanup = setupWakeLockReacquisition(() => {
+      requestWakeLock()
+    })
+    
+    return cleanup
+  }, [isPlaying])
+
   // Auto-play logic
   useEffect(() => {
-    if (!isPlaying || !showViewModal || viewWords.length === 0) return
+    if (!isPlaying || !showViewModal || viewWords.length === 0 || isPaused) return
 
     const currentWord = viewWords[currentViewIndex]
     if (!currentWord) return
@@ -81,7 +103,7 @@ export const useView = (words: TranslateItem[]) => {
       if (speakTimeout) clearTimeout(speakTimeout)
       clearTimeout(nextTimeout)
     }
-  }, [isPlaying, showViewModal, viewWords, currentViewIndex, viewLanguage, closeView])
+  }, [isPlaying, showViewModal, viewWords, currentViewIndex, viewLanguage, closeView, isPaused])
 
   return {
     showViewModal,
@@ -94,7 +116,9 @@ export const useView = (words: TranslateItem[]) => {
     startViewWithLanguage,
     closeView,
     nextWord,
-    isPlaying
+    isPlaying,
+    isPaused,
+    togglePause
   }
 }
 

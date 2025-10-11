@@ -150,14 +150,14 @@ function App() {
       <div className="container">
         <div className="header-container">
           <h1 className="title">
-            {translations.ge.dictionaryTitle} - ({searchTerm && filteredWords.length + ` ${translations.ge.of} `}{words.length} {translations.ge.wordsCount}{knownWordsHook.getKnownWordsCount() > 0 && ` | ✓ ${knownWordsHook.getKnownWordsCount()} ვიცი`})
+            {translations.ge.dictionaryTitle} - ({searchTerm && filteredWords.length + ` / `}{words.length} {translations.ge.wordsCount}{knownWordsHook.getKnownWordsCount() > 0 && ` | ✓ ${knownWordsHook.getKnownWordsCount()} ${translations.ge.iKnow}`})
           </h1>
           <div className="test-controls">
             <Button variant="primary" onClick={handleStartTestWithSelection}>
-              🧪 ტესტი
+              {translations.ge.testButton}
             </Button>
             <Button variant="secondary" onClick={handleStartView}>
-              👁️ ნახვა
+              {translations.ge.viewButton}
             </Button>
             {selectionHook.isSelectionMode && (
               <Button 
@@ -207,8 +207,8 @@ function App() {
       {/* Test Modals */}
       {testHook.showLanguageModal && (
         <LanguageModal 
-          title="ტესტის ენის არჩევა"
-          description="რომელ ენაზე გსურთ კითხვების მიღება?"
+          title={translations.ge.selectTestLanguage}
+          description={translations.ge.selectLanguagePrompt}
           onSelectLanguage={testHook.selectTestLanguage}
           onClose={testHook.closeModals}
         />
@@ -244,8 +244,8 @@ function App() {
       {/* View Modals */}
       {viewHook.showViewModal && !viewHook.isPlaying && (
         <LanguageModal 
-          title="ნახვის რეჟიმის არჩევა"
-          description="რომელ ენაზე გსურთ სიტყვების ნახვა?"
+          title={translations.ge.selectViewLanguage}
+          description={translations.ge.selectViewLanguagePrompt}
           onSelectLanguage={viewHook.startViewWithLanguage}
           onClose={viewHook.closeView}
         />
@@ -258,8 +258,10 @@ function App() {
           currentIndex={viewHook.currentViewIndex}
           totalWords={viewHook.totalViewWords}
           currentDelay={viewHook.currentDelay}
+          isPaused={viewHook.isPaused}
           onClose={viewHook.closeView}
           onNext={viewHook.nextWord}
+          onTogglePause={viewHook.togglePause}
         />
       )}
     </div>

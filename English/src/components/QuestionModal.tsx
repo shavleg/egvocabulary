@@ -45,7 +45,7 @@ const QuestionModal: React.FC<QuestionModalProps> = ({
       </div>
       
       <div className="question-header">
-        <h2>{translations.ge.question} {currentQuestionIndex + 1} {translations.ge.of} {totalQuestions}</h2>
+        <h2>{translations.ge.question} {currentQuestionIndex + 1} / {totalQuestions}</h2>
         {hasAnswers && (
           <Button variant="warning" size="small" onClick={onShowResults}>
             {translations.ge.showResults}

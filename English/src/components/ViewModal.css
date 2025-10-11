@@ -71,12 +71,15 @@
   transition: opacity 0.3s ease;
 }
 
-.view-next-btn-wrapper {
+.view-control-buttons {
   position: absolute;
   bottom: 35px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .view-progress-bar {

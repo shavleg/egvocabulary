@@ -119,12 +119,12 @@ const WordsTable: React.FC<WordsTableProps> = ({
       <table className="words-table">
         <thead>
           <tr>
-            <th>ინგლისური</th>
-            <th>ქართული</th>
-            <th>გამოთქმა</th>
-            <th>ინგლისური მაგალითი</th>
-            <th>ქართული მაგალითი</th>
-            <th className="known-column">ვიცი</th>
+            <th>{translations.ge.tableHeaderEnglish}</th>
+            <th>{translations.ge.tableHeaderGeorgian}</th>
+            <th>{translations.ge.tableHeaderPronunciation}</th>
+            <th>{translations.ge.tableHeaderEnglishExample}</th>
+            <th>{translations.ge.tableHeaderGeorgianExample}</th>
+            <th className="known-column">{translations.ge.knownColumn}</th>
           </tr>
         </thead>
         <tbody>

@@ -7,7 +7,6 @@ export const translations = {
     searchPlaceholder: "ძებნა ყველა ველში...",
     clearSearch: "ძებნის გაუქმება",
     noResults: "ვერ მოიძებნა",
-    testButton: "🧪 ტესტი",
     selectTestLanguage: "ტესტის ენის არჩევა",
     selectLanguagePrompt: "რომელ ენაზე გსურთ კითხვების მიღება?",
     georgianToEnglish: "🇬🇪 ქართული → ინგლისური",
@@ -34,11 +33,23 @@ export const translations = {
     whatIsTranslation: "რა არის",
     translationOf: "-ის თარგმანი?",
     filteredResults: "ფილტრირებული შედეგები",
-    of: "/",
     listenPronunciation: "მოუსმინე გამოთქმას",
     exitSelectionMode: "სელექციის რეჟიმის გამოსვლა",
     selectedWords: "არჩეული სიტყვები",
-    longPressToSelect: "ლონგპრესი სელექციისთვის"
+    longPressToSelect: "ლონგპრესი სელექციისთვის",
+    pause: "⏸️ პაუზა",
+    play: "▶️ გაგრძელება",
+    testButton: "🧪 ტესტი",
+    viewButton: "👁️ ნახვა",
+    iKnow: "ვიცი",
+    knownColumn: "ვიცი",
+    selectViewLanguage: "ნახვის რეჟიმის არჩევა",
+    selectViewLanguagePrompt: "რომელ ენაზე გსურთ სიტყვების ნახვა?",
+    tableHeaderEnglish: "ინგლისური",
+    tableHeaderGeorgian: "ქართული",
+    tableHeaderPronunciation: "გამოთქმა",
+    tableHeaderEnglishExample: "ინგლისური მაგალითი",
+    tableHeaderGeorgianExample: "ქართული მაგალითი"
   }
 } as const
 

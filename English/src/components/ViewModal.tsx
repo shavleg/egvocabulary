@@ -12,8 +12,10 @@ interface ViewModalProps {
   currentIndex: number
   totalWords: number
   currentDelay: number
+  isPaused: boolean
   onClose: () => void
   onNext: () => void
+  onTogglePause: () => void
 }
 
 const ViewModal: React.FC<ViewModalProps> = ({ 
@@ -22,8 +24,10 @@ const ViewModal: React.FC<ViewModalProps> = ({
   currentIndex, 
   totalWords,
   currentDelay,
+  isPaused,
   onClose,
-  onNext
+  onNext,
+  onTogglePause
 }) => {
   if (!currentWord) return null
 
@@ -32,7 +36,7 @@ const ViewModal: React.FC<ViewModalProps> = ({
   const pronunciation = currentWord.pronunciation
 
   // Progress bar animation using custom hook
-  const progress = useProgressBar(currentDelay, currentIndex)
+  const progress = useProgressBar(currentDelay, currentIndex, isPaused)
 
   // Fade and slide animation state
   const [isVisible, setIsVisible] = React.useState(true)
@@ -79,8 +83,15 @@ const ViewModal: React.FC<ViewModalProps> = ({
         </div>
       </div>
       
-      {/* Next button above progress bar */}
-      <div className="view-next-btn-wrapper">
+      {/* Control buttons above progress bar */}
+      <div className="view-control-buttons">
+        <Button 
+          variant="warning" 
+          size="small" 
+          onClick={onTogglePause}
+        >
+          {isPaused ? translations.ge.play : translations.ge.pause}
+        </Button>
         <Button 
           variant="primary" 
           size="small" 
