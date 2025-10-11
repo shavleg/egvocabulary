@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from './Modal'
+import Button from './Button'
 import './ViewModal.css'
 import { TranslateItem, TestLanguage } from '../models/translateItem'
 
@@ -26,9 +27,11 @@ const ViewModal: React.FC<ViewModalProps> = ({
 
   return (
     <Modal onClose={onClose} className="view-modal-content" showCloseButton={false}>
-      <button className="view-close-btn" onClick={onClose}>
-        ✕
-      </button>
+      <div className="view-close-btn">
+        <Button variant="danger" icon size="small" onClick={onClose}>
+          ✕
+        </Button>
+      </div>
       
       <div className="view-progress">
         {currentIndex + 1} / {totalWords}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from './Modal'
+import Button from './Button'
 import './Modal.css'
 import { TranslateItem, TestLanguage } from '../models/translateItem'
 import { translations } from '../constants/translations'
@@ -41,11 +42,13 @@ const QuestionModal: React.FC<QuestionModalProps> = ({
         <h2>{translations.ge.question} {currentQuestionIndex + 1} {translations.ge.of} {totalQuestions}</h2>
         <div className="question-header-buttons">
           {hasAnswers && (
-            <button className="show-results-btn" onClick={onShowResults}>
+            <Button variant="warning" size="small" onClick={onShowResults}>
               {translations.ge.showResults}
-            </button>
+            </Button>
           )}
-          <button className="close-modal-btn" onClick={onClose}>✕</button>
+          <Button variant="danger" icon size="small" onClick={onClose}>
+            ✕
+          </Button>
         </div>
       </div>
       
@@ -76,19 +79,19 @@ const QuestionModal: React.FC<QuestionModalProps> = ({
             autoFocus
           />
           <div className="answer-buttons">
-            <button 
-              className="submit-answer-btn"
+            <Button 
+              variant="success"
               onClick={onSubmitAnswer}
               disabled={!currentAnswer.trim()}
             >
               {translations.ge.next}
-            </button>
-            <button 
-              className="skip-question-btn"
+            </Button>
+            <Button 
+              variant="danger"
               onClick={onSkipQuestion}
             >
               {translations.ge.skip}
-            </button>
+            </Button>
           </div>
         </div>
       </div>

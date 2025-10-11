@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react'
+import Button from './Button'
 import './Modal.css'
 
 interface ModalProps {
@@ -18,9 +19,11 @@ const Modal: React.FC<ModalProps> = ({
     <div className="modal-overlay" onClick={onClose}>
       <div className={`modal ${className}`} onClick={(e) => e.stopPropagation()}>
         {showCloseButton && (
-          <button className="close-modal-btn" onClick={onClose}>
-            ✕
-          </button>
+          <div className="close-modal-btn-wrapper">
+            <Button variant="danger" icon size="small" onClick={onClose}>
+              ✕
+            </Button>
+          </div>
         )}
         {children}
       </div>

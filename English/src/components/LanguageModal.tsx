@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from './Modal'
+import Button from './Button'
 import './Modal.css'
 import { TestLanguage } from '../models/translateItem'
 
@@ -21,18 +22,18 @@ const LanguageModal: React.FC<LanguageModalProps> = ({
       <h2>{title}</h2>
       <p>{description}</p>
       <div className="language-buttons">
-        <button 
-          className="language-btn"
+        <Button 
+          variant="language"
           onClick={() => onSelectLanguage('english')}
         >
           🇺🇸 ინგლისური → ქართული
-        </button>
-        <button 
-          className="language-btn"
+        </Button>
+        <Button 
+          variant="language"
           onClick={() => onSelectLanguage('georgian')}
         >
           🇬🇪 ქართული → ინგლისური
-        </button>
+        </Button>
       </div>
     </Modal>
   )

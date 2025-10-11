@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from './Modal'
+import Button from './Button'
 import './Modal.css'
 import { TranslateAnswer } from '../models/translateItem'
 import { translations } from '../constants/translations'
@@ -28,7 +29,9 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
     <Modal onClose={onClose} className="results-modal" showCloseButton={false}>
       <div className="results-header">
         <h2>{translations.ge.testResults}</h2>
-        <button className="close-modal-btn" onClick={onClose}>✕</button>
+        <Button variant="danger" icon size="small" onClick={onClose}>
+          ✕
+        </Button>
       </div>
       
       <div className="results-summary">
@@ -69,13 +72,13 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
       <div className="results-actions">
         <div className="results-buttons">
           {currentQuestionIndex < totalQuestions - 1 && (
-            <button className="back-to-test-btn" onClick={onBackToTest}>
+            <Button variant="info" onClick={onBackToTest}>
               {translations.ge.backToTest}
-            </button>
+            </Button>
           )}
-          <button className="restart-test-btn" onClick={onRestartTest}>
+          <Button variant="language" size="large" onClick={onRestartTest}>
             {translations.ge.newTest}
-          </button>
+          </Button>
         </div>
       </div>
     </Modal>

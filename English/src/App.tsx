@@ -9,6 +9,7 @@ import LanguageModal from './components/LanguageModal'
 import QuestionModal from './components/QuestionModal'
 import ResultsModal from './components/ResultsModal'
 import ViewModal from './components/ViewModal'
+import Button from './components/Button'
 
 // Hooks
 import { useTest } from './hooks/useTest'
@@ -152,20 +153,21 @@ function App() {
             {translations.ge.dictionaryTitle} - ({searchTerm && filteredWords.length + ` ${translations.ge.of} `}{words.length} {translations.ge.wordsCount}{knownWordsHook.getKnownWordsCount() > 0 && ` | ✓ ${knownWordsHook.getKnownWordsCount()} ვიცი`})
           </h1>
           <div className="test-controls">
-            <button className="test-btn" onClick={handleStartTestWithSelection}>
+            <Button variant="primary" onClick={handleStartTestWithSelection}>
               🧪 ტესტი
-            </button>
-            <button className="view-btn" onClick={handleStartView}>
+            </Button>
+            <Button variant="secondary" onClick={handleStartView}>
               👁️ ნახვა
-            </button>
+            </Button>
             {selectionHook.isSelectionMode && (
-              <button 
-                className="exit-selection-btn" 
+              <Button 
+                variant="danger"
+                icon
                 onClick={selectionHook.exitSelectionMode}
                 title={translations.ge.exitSelectionMode}
               >
                 ✕
-              </button>
+              </Button>
             )}
           </div>
         </div>
