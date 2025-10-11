@@ -1,0 +1,1136 @@
+[
+  {
+    "english": "hold",
+    "georgian": "დაჭერა / ხელში დაჭერა",
+    "pronunciation": "/hoʊld/",
+    "eng_example": "Hold my hand.",
+    "geo_example": "დაიჭირე ჩემი ხელი."
+  },
+  {
+    "english": "sustained",
+    "georgian": "მუდმივი",
+    "pronunciation": "/səˈsteɪnd/",
+    "eng_example": "The applause was sustained.",
+    "geo_example": "ტაში გაგრძელებული იყო."
+  },
+  {
+    "english": "Thought",
+    "georgian": "ფიქრი / აზრი",
+    "pronunciation": "/tɔːt/",
+    "eng_example": "She thought the movie was interesting.",
+    "geo_example": "მან იფიქრა, რომ ფილმი საინტერესო იყო."
+  },
+  {
+    "english": "arouse",
+    "georgian": "გრძნობის გამოწვევა / გრძნობის აღძვრა / გრძნობის გაღვივება",
+    "pronunciation": "/əˈraʊz/",
+    "eng_example": "The movie aroused my interest.",
+    "geo_example": "ფილმმა გამოიწვია ჩემი ინტერესი."
+  },
+  {
+    "english": "curiosity",
+    "georgian": "ცნობისმოყვარეობა / ინტერესი",
+    "pronunciation": "/ˌkjʊəriˈɒsəti/",
+    "eng_example": "Her curiosity led to discovery.",
+    "geo_example": "მისმა ცნობისმოყვარეობამ გამოიწვია აღმოჩენა."
+  },
+  {
+    "english": "surprise",
+    "georgian": "სიურპრიზი / გაკვირვება / მოულოდნელი რამ",
+    "pronunciation": "/səˈpraɪz/",
+    "eng_example": "What a pleasant surprise!",
+    "geo_example": "რა სასიამოვნო სიურპრიზია!"
+  },
+  {
+    "english": "benefit",
+    "georgian": "სარგებელი",
+    "pronunciation": "/ˈbenɪfɪt/",
+    "eng_example": "Exercise has many benefits.",
+    "geo_example": "ფიზიკურ ვარჯიშს ბევრი სარგებელი აქვს."
+  },
+  {
+    "english": "meaningful",
+    "georgian": "მნიშვნელოვანი / აზრიანი",
+    "pronunciation": "/ˈmiːnɪŋfʊl/",
+    "eng_example": "We had a meaningful conversation.",
+    "geo_example": "ჩვენ მნიშვნელოვანი საუბარი გავატარეთ."
+  },
+  {
+    "english": "target",
+    "georgian": "მიზანი",
+    "pronunciation": "/ˈtɑːrɡɪt/",
+    "eng_example": "The target audience is young people.",
+    "geo_example": "მიზანობრივი აუდიტორია არის ახალგაზრდები."
+  },
+  {
+    "english": "janitor",
+    "georgian": "მწმენდავი / დამლაგებელი",
+    "pronunciation": "/ˈdʒænɪtər/",
+    "eng_example": "The janitor cleans the school.",
+    "geo_example": "მწმენდავი აწმენდს სკოლას."
+  },
+  {
+    "english": "possessive",
+    "georgian": "მფლობელობითი",
+    "pronunciation": "/pəˈzesɪv/",
+    "eng_example": "This is my book.",
+    "geo_example": "ეს არის ჩემი წიგნი."
+  },
+  {
+    "english": "adjective",
+    "georgian": "ზედსართავი",
+    "pronunciation": "/ˈædʒɪktɪv/",
+    "eng_example": "Beautiful is an adjective.",
+    "geo_example": "ლამაზი არის ზედსართავი."
+  },
+  {
+    "english": "pronunciation",
+    "georgian": "გამოთქმა",
+    "pronunciation": "/prəˌnʌnsiˈeɪʃn/",
+    "eng_example": "Your pronunciation is excellent.",
+    "geo_example": "შენი გამოთქმა შესანიშნავია."
+  },
+  {
+    "english": "sentence",
+    "georgian": "წინადადება",
+    "pronunciation": "/ˈsentənsɪz/",
+    "eng_example": "Write five sentences about your family.",
+    "geo_example": "დაწერე ხუთი წინადადება შენი ოჯახის შესახებ."
+  },
+  {
+    "english": "syllable",
+    "georgian": "მარცვალი",
+    "pronunciation": "/ˈsɪləbl/",
+    "eng_example": "How many syllables in 'beautiful'?",
+    "geo_example": "რამდენი მარცვალია 'beautiful'-ში?"
+  },
+  {
+    "english": "stressed",
+    "georgian": "გამოკვეთლი / ხაზგასმული",
+    "pronunciation": "/strest/",
+    "eng_example": "I feel stressed about the exam.",
+    "geo_example": "ექზამენზე ძაბვიანი ვარ."
+  },
+  {
+    "english": "notice",
+    "georgian": "შენიშვნა / ყურადღება მიაქციო",
+    "pronunciation": "/ˈnoʊtɪs/",
+    "eng_example": "Did you notice the mistake?",
+    "geo_example": "შენიშნე შეცდომა?"
+  },
+  {
+    "english": "guess",
+    "georgian": "ალბათ / ვარაუდი / მგონია",
+    "pronunciation": "/ɡes/",
+    "eng_example": "Can you guess my age?",
+    "geo_example": "შეგიძლია ვხვრეტო ჩემი ასაკი?"
+  },
+  {
+    "english": "wear",
+    "georgian": "ჩაცმა",
+    "pronunciation": "/wer/",
+    "eng_example": "What should I wear today?",
+    "geo_example": "რა ჩავიცვა დღეს?"
+  },
+  {
+    "english": "hiking",
+    "georgian": "ფეხით სიარული / ლაშქრობა",
+    "pronunciation": "/ˈhaɪkɪŋ/",
+    "eng_example": "We went hiking in the mountains.",
+    "geo_example": "ჩვენ მთებში ფეხით წავედით."
+  },
+  {
+    "english": "would you like",
+    "georgian": "გნებავთ? / გსურთ?",
+    "pronunciation": "/wʊd juː laɪk/",
+    "eng_example": "Would you like some coffee?",
+    "geo_example": "გინდა ყავა?"
+  },
+  {
+    "english": "come with me",
+    "georgian": "მომყევი / წამომყევი",
+    "pronunciation": "/kʌm wɪð miː/",
+    "eng_example": "Come with me to the store.",
+    "geo_example": "მომყევი მაღაზიაში."
+  },
+  {
+    "english": "come to me",
+    "georgian": "მოდი ჩემთან",
+    "pronunciation": "/kʌm tuː miː/",
+    "eng_example": "Come to me when you're ready.",
+    "geo_example": "მოდი ჩემთან როცა მზად იქნები."
+  },
+  {
+    "english": "silly",
+    "georgian": "სულელი",
+    "pronunciation": "/ˈsɪli/",
+    "eng_example": "Don't be silly!",
+    "geo_example": "ნუ იქნები სულელი!"
+  },
+  {
+    "english": "here you are",
+    "georgian": "აი ინებეთ / აი გქონდეთ",
+    "pronunciation": "/hɪər juː ɑːr/",
+    "eng_example": "Here you are, your book.",
+    "geo_example": "აი შენ, შენი წიგნი."
+  },
+  {
+    "english": "certainly",
+    "georgian": "ნამდვილად / რა თქმა უნდა",
+    "pronunciation": "/ˈsɜːrtənli/",
+    "eng_example": "Certainly, I'll help you.",
+    "geo_example": "რა თქმა უნდა, დაგეხმარები."
+  },
+  {
+    "english": "I'd like to",
+    "georgian": "ვისურვებდი",
+    "pronunciation": "/aɪd laɪk tuː/",
+    "eng_example": "I'd like to visit Paris.",
+    "geo_example": "ვისურვებდი ვიმოგზაურო პარიზში."
+  },
+  {
+    "english": "sleepyhead",
+    "georgian": "ძილისგუდა",
+    "pronunciation": "/ˈsliːpihed/",
+    "eng_example": "Wake up, sleepyhead!",
+    "geo_example": "გაიღვიძე, ძილისთავო!"
+  },
+  {
+    "english": "things you like",
+    "georgian": "რაღაცა რაც მოგწონს",
+    "pronunciation": "/θɪŋz juː laɪk/",
+    "eng_example": "Tell me about things you like.",
+    "geo_example": "მითხარი რაც მოგწონს."
+  },
+  {
+    "english": "noun",
+    "georgian": "არსებითი სახელი",
+    "pronunciation": "/naʊnz/",
+    "eng_example": "Cat, dog, and house are nouns.",
+    "geo_example": "კატა, ძაღლი და სახლი არის არსებითი სახელები."
+  },
+  {
+    "english": "skill",
+    "georgian": "შესაძლებლობა / უნარი / ნიჭი",
+    "pronunciation": "/skɪl/",
+    "eng_example": "Reading is an important skill.",
+    "geo_example": "კითხვა მნიშვნელოვანი შესაძლებლობაა."
+  },
+  {
+    "english": "join",
+    "georgian": "შეერთება / დაკავშირება",
+    "pronunciation": "/dʒɔɪn/",
+    "eng_example": "Would you like to join us?",
+    "geo_example": "გინდა შემოუერთდე?"
+  },
+  {
+    "english": "place",
+    "georgian": "ადგილი",
+    "pronunciation": "/pleɪs/",
+    "eng_example": "This is a beautiful place.",
+    "geo_example": "ეს ლამაზი ადგილია."
+  },
+  {
+    "english": "order",
+    "georgian": "შეკვეთა",
+    "pronunciation": "/ˈɔːrdər/",
+    "eng_example": "I'd like to order pizza.",
+    "geo_example": "მინდა ვიშეკვეთო პიცა."
+  },
+  {
+    "english": "order",
+    "georgian": "რიგი / თანმიმდევრობა",
+    "pronunciation": "/sɔːrt/",
+    "eng_example": "Can you order the pizza?",
+    "geo_example": "შეგიძლია შეკვეთო პიცა?"
+  },
+  {
+    "english": "spare bedroom",
+    "georgian": "დამხმარე საძინებელი / დამატებითი საძინებელი",
+    "pronunciation": "/sper ˈbedruːm/",
+    "eng_example": "We have a spare bedroom for guests.",
+    "geo_example": "ჩვენ გვაქვს დამხმარე საძინებელი სტუმრებისთვის."
+  },
+  {
+    "english": "big meal",
+    "georgian": "დიდი ვახშამი",
+    "pronunciation": "/bɪɡ miːl/",
+    "eng_example": "We had a big meal for dinner.",
+    "geo_example": "ჩვენ დიდი კვება გვქონდა სადილად."
+  },
+  {
+    "english": "looking forward",
+    "georgian": "მოუთმენლად ლოდინი",
+    "pronunciation": "/ˈlʊkɪŋ ˈfɔːrwərd/",
+    "eng_example": "I'm looking forward to the weekend.",
+    "geo_example": "ელოდები შაბათ-კვირას."
+  },
+  {
+    "english": "afraid",
+    "georgian": "ვშიშობ",
+    "pronunciation": "/əˈfreɪd/",
+    "eng_example": "Don't be afraid of the dark.",
+    "geo_example": "ნუ გეშინია ბნელისა."
+  },
+  {
+    "english": "trip",
+    "georgian": "მოგზაურობა",
+    "pronunciation": "/trɪp/",
+    "eng_example": "We're planning a trip to Italy.",
+    "geo_example": "ვგეგმავთ მოგზაურობას იტალიაში."
+  },
+  {
+    "english": "I mean",
+    "georgian": "ვგულისხმობ / მინდა ვთქვა",
+    "pronunciation": "/aɪ miːn/",
+    "eng_example": "I mean, it's not that difficult.",
+    "geo_example": "ვგულისხმობ, ეს არც ისე რთულია."
+  },
+  {
+    "english": "affirmative",
+    "georgian": "დადებითი",
+    "pronunciation": "/əˈfɜːrmətɪv/",
+    "eng_example": "The answer is affirmative.",
+    "geo_example": "პასუხი დადებითია."
+  },
+  {
+    "english": "contraction",
+    "georgian": "შეკუმშვა / შემოკლება",
+    "pronunciation": "/kənˈtrækʃn/",
+    "eng_example": "Don't is a contraction of do not.",
+    "geo_example": "Don't არის do not-ის შეკუმშვა."
+  },
+  {
+    "english": "verb",
+    "georgian": "ზმნა",
+    "pronunciation": "/vɜːrb/",
+    "eng_example": "Run, eat, and sleep are verbs.",
+    "geo_example": "გაქცევა, ჭამა და ძილი არის ზმნები."
+  },
+  {
+    "english": "preposition",
+    "georgian": "წინდებული",
+    "pronunciation": "/ˌprepəˈzɪʃn/",
+    "eng_example": "In, on, and at are prepositions.",
+    "geo_example": "In, on და at არის წინდებულები."
+  },
+  {
+    "english": "adverb",
+    "georgian": "ზმნინედა",
+    "pronunciation": "/ˈædvɜːrb/",
+    "eng_example": "Quickly, slowly, and carefully are adverbs.",
+    "geo_example": "სწრაფად, ნელა და ფრთხილად არის ზმნისართავები."
+  },
+  {
+    "english": "pronoun",
+    "georgian": "ნაცვალსახელი",
+    "pronunciation": "/ˈproʊnaʊn/",
+    "eng_example": "I, you, and he are pronouns.",
+    "geo_example": "მე, შენ და ის არის ნაცვალსახელები."
+  },
+  {
+    "english": "measure",
+    "georgian": "ზომა / გაზომვა",
+    "pronunciation": "/ˈmeʒər/",
+    "eng_example": "Can you measure the table?",
+    "geo_example": "შეგიძლია ზომო მაგიდა?"
+  },
+  {
+    "english": "useful",
+    "georgian": "სასარგებლო / გამოყენებადი",
+    "pronunciation": "/ˈjuːsfʊl/",
+    "eng_example": "This dictionary is very useful.",
+    "geo_example": "ეს ლექსიკონი ძალიან სასარგებლოა."
+  },
+  {
+    "english": "asking for and giving information",
+    "georgian": "ინფორმაციის მოთხოვნა და მიცემა",
+    "pronunciation": "/ˈæskɪŋ fɔːr ænd ˈɡɪvɪŋ ˌɪnfərˈmeɪʃn/",
+    "eng_example": "We practiced asking for and giving information.",
+    "geo_example": "ვვარჯიშეთ ინფორმაციის მოთხოვნასა და მიცემაში."
+  },
+  {
+    "english": "enjoy",
+    "georgian": "ისიამოვნოს / გაერთოს",
+    "pronunciation": "/ɪnˈdʒɔɪ/",
+    "eng_example": "I enjoy reading books.",
+    "geo_example": "მე მიყვარს წიგნების კითხვა."
+  },
+  {
+    "english": "to take",
+    "georgian": "ავიღო / მივიღო / დავიწყო",
+    "pronunciation": "/tuː teɪk/",
+    "eng_example": "Please take your seat.",
+    "geo_example": "გთხოვთ, დაიკავეთ თქვენი ადგილი."
+  },
+  {
+    "english": "so that's",
+    "georgian": "ესეიგი / ანუ",
+    "pronunciation": "/soʊ ðæts/",
+    "eng_example": "So that's how it works.",
+    "geo_example": "ესეიგი, ასე მუშაობს."
+  },
+  {
+    "english": "match",
+    "georgian": "შედარება / შესაბამისობა",
+    "pronunciation": "/mætʃ/",
+    "eng_example": "We watched a football match.",
+    "geo_example": "ჩვენ ვუყურეთ ფეხბურთის თამაშს."
+  },
+  {
+    "english": "horrible",
+    "georgian": "საშინელი",
+    "pronunciation": "/ˈhɔːrəbl/",
+    "eng_example": "The weather was horrible.",
+    "geo_example": "ამინდი საშინელი იყო."
+  },
+  {
+    "english": "quiet",
+    "georgian": "ჩუმი / მშვიდი",
+    "pronunciation": "/ˈkwaɪət/",
+    "eng_example": "Please be quiet in the library.",
+    "geo_example": "გთხოვთ, იყავით ჩუმად ბიბლიოთეკაში."
+  },
+  {
+    "english": "tenses",
+    "georgian": "ზმნის დროები",
+    "pronunciation": "/tensɪz/",
+    "eng_example": "We studied English tenses today.",
+    "geo_example": "დღეს ინგლისური ზმნის დროები შევისწავლეთ."
+  },
+  {
+    "english": "present",
+    "georgian": "აწმყო",
+    "pronunciation": "/ˈprezənt/",
+    "eng_example": "I am present in the class.",
+    "geo_example": "მე აწმყოში კლასში ვარ."
+  },
+  {
+    "english": "habit",
+    "georgian": "ჩვევა",
+    "pronunciation": "/ˈhæbɪt/",
+    "eng_example": "Reading is a good habit.",
+    "geo_example": "კითხვა კარგი ჩვევაა."
+  },
+  {
+    "english": "routine",
+    "georgian": "რუტინა",
+    "pronunciation": "/ruːˈtiːn/",
+    "eng_example": "My morning routine includes exercise.",
+    "geo_example": "ჩემი დილის რუტინა მოიცავს ვარჯიშს."
+  },
+  {
+    "english": "It's not fair",
+    "georgian": "ეს არ არის სწორი / ეს არ არის სამართლიანი",
+    "pronunciation": "/ɪts nɒt feər/",
+    "eng_example": "It's not fair that he gets more candy.",
+    "geo_example": "ეს არ არის სწორი, რომ მას მეტი ტკბილეული აქვს."
+  },
+  {
+    "english": "fall asleep",
+    "georgian": "დაძინება",
+    "pronunciation": "/fɔːl əˈsliːp/",
+    "eng_example": "I usually fall asleep at 10 PM.",
+    "geo_example": "ჩვეულებრივ 22:00 საათზე ვძინავ."
+  },
+  {
+    "english": "parentheses",
+    "georgian": "მრგვალი ფრჩხილები",
+    "pronunciation": "/pəˈrenθəsiːz/",
+    "eng_example": "Put the extra information in parentheses.",
+    "geo_example": "დამატებითი ინფორმაცია მრგვალ ფრჩხილებში ჩადე."
+  },
+  {
+    "english": "early",
+    "georgian": "ადრე",
+    "pronunciation": "/ˈɜːrli/",
+    "eng_example": "I wake up early every morning.",
+    "geo_example": "ყოველ დილას ადრე ვიღვიძებ."
+  },
+  {
+    "english": "prefers to",
+    "georgian": "ამჯობინებს / მიუთითებს / გულისხმობს / აღნიშნავს",
+    "pronunciation": "/prɪˈfɜːrz tuː/",
+    "eng_example": "The word 'dog' refers to an animal.",
+    "geo_example": "სიტყვა 'dog' გულისხმობს ცხოველს."
+  },
+  {
+    "english": "attack",
+    "georgian": "თავდასხმა",
+    "pronunciation": "/əˈtæk/",
+    "eng_example": "The lion prepared for attack.",
+    "geo_example": "ლომი თავდასხმისთვის ემზადებოდა."
+  },
+  {
+    "english": "wild",
+    "georgian": "ველური",
+    "pronunciation": "/waɪld/",
+    "eng_example": "We saw wild animals in the forest.",
+    "geo_example": "ტყეში ველური ცხოველები ვნახეთ."
+  },
+  {
+    "english": "so far",
+    "georgian": "ამ დრომდე",
+    "pronunciation": "/soʊ fɑːr/",
+    "eng_example": "So far, the weather has been nice.",
+    "geo_example": "ამ დრომდე ამინდი კარგი იყო."
+  },
+  {
+    "english": "exciting",
+    "georgian": "ამაღელვებელი / საინტერესო",
+    "pronunciation": "/ɪkˈsaɪtɪŋ/",
+    "eng_example": "The movie was very exciting.",
+    "geo_example": "ფილმი ძალიან ამაღელვებელი იყო."
+  },
+  {
+    "english": "extra",
+    "georgian": "დამატებითი",
+    "pronunciation": "/ˈekstrə/",
+    "eng_example": "I need extra time to finish this.",
+    "geo_example": "ამის დასრულებისთვის დამატებითი დრო მჭირდება."
+  },
+  {
+    "english": "flight attendant",
+    "georgian": "ბორტ გამცილებელი",
+    "pronunciation": "/flaɪt əˈtendənt/",
+    "eng_example": "The flight attendant helped passengers.",
+    "geo_example": "ბორტ გამცილებელმა მგზავრებს დაეხმარა."
+  },
+  {
+    "english": "baby sitter",
+    "georgian": "ძიძა",
+    "pronunciation": "/ˈbeɪbi ˈsɪtər/",
+    "eng_example": "We hired a baby sitter for tonight.",
+    "geo_example": "ღამისთვის ძიძა დავიქირავეთ."
+  },
+  {
+    "english": "nurse",
+    "georgian": "ექთანი",
+    "pronunciation": "/nɜːrs/",
+    "eng_example": "The nurse took my temperature.",
+    "geo_example": "ექთანმა ჩემი ტემპერატურა გაზომა."
+  },
+  {
+    "english": "engineer",
+    "georgian": "ინჟინერი",
+    "pronunciation": "/ˌendʒɪˈnɪr/",
+    "eng_example": "My father is a civil engineer.",
+    "geo_example": "ჩემი მამა სამოქალაქო ინჟინერია."
+  },
+  {
+    "english": "do you worry",
+    "georgian": "ნერვიულობ? / ღელავ?",
+    "pronunciation": "/duː juː ˈwɜːri/",
+    "eng_example": "Do you worry about the exam?",
+    "geo_example": "გამოცდისთვის ნერვიულობ?"
+  },
+  {
+    "english": "worry",
+    "georgian": "ნერვიულობა / ღელვა",
+    "pronunciation": "/ˈwɜːri/",
+    "eng_example": "Don't worry about the weather.",
+    "geo_example": "ამინდზე ნუ ღელავ."
+  },
+  {
+    "english": "funny",
+    "georgian": "სახალისო",
+    "pronunciation": "/ˈfʌni/",
+    "eng_example": "That joke was really funny.",
+    "geo_example": "ეს ხუმრობა ძალიან სახალისო იყო."
+  },
+  {
+    "english": "break",
+    "georgian": "შესვენება / დასვენების დრო",
+    "pronunciation": "/breɪk/",
+    "eng_example": "Let's take a break for lunch.",
+    "geo_example": "სადილისთვის შესვენება ავიღოთ."
+  },
+  {
+    "english": "am",
+    "georgian": "შუადღემდე / დილის საათები",
+    "pronunciation": "/eɪ ˈem/",
+    "eng_example": "I wake up at 7 AM.",
+    "geo_example": "დილის 7 საათზე ვიღვიძებ."
+  },
+  {
+    "english": "pm",
+    "georgian": "შუადღის შემდეგ / დღის მეორე ნახევარი",
+    "pronunciation": "/piː ˈem/",
+    "eng_example": "The meeting is at 3 PM.",
+    "geo_example": "შეხვედრა ღამის 3 საათზეა."
+  },
+  {
+    "english": "each day",
+    "georgian": "ყოველ დღე / ყოველდღიურად",
+    "pronunciation": "/iːtʃ deɪ/",
+    "eng_example": "I exercise each day.",
+    "geo_example": "ყოველ დღე ვარჯიშობ."
+  },
+  {
+    "english": "quarter",
+    "georgian": "მეოთხედი",
+    "pronunciation": "/ˈkwɔːrtər/",
+    "eng_example": "A quarter of the pizza is gone.",
+    "geo_example": "პიცის მეოთხედი გაქრა."
+  },
+  {
+    "english": "mechanic",
+    "georgian": "მექანიკოსი",
+    "pronunciation": "/məˈkænɪk/",
+    "eng_example": "The mechanic fixed my car.",
+    "geo_example": "მექანიკოსმა ჩემი მანქანა გააუმჯობესა."
+  },
+  {
+    "english": "receptionist",
+    "georgian": "ადმინისტრატორი / მიმღები",
+    "pronunciation": "/rɪˈsepʃənɪst/",
+    "eng_example": "The receptionist greeted us at the hotel.",
+    "geo_example": "ადმინისტრატორმა სასტუმროში მოგვიკითხა."
+  },
+  {
+    "english": "fail",
+    "georgian": "ჩაჭრა / მარცხი",
+    "pronunciation": "/feɪl/",
+    "eng_example": "I don't want to fail the exam.",
+    "geo_example": "არ მინდა გამოცდაზე ჩაჭრა."
+  },
+  {
+    "english": "pass",
+    "georgian": "ჩაბარება",
+    "pronunciation": "/pæs/",
+    "eng_example": "I hope to pass the test.",
+    "geo_example": "იმედი მაქვს, რომ ტესტს ჩავაბარებ."
+  },
+  {
+    "english": "schedule",
+    "georgian": "განრიგი",
+    "pronunciation": "/ˈʃedjuːl/",
+    "eng_example": "Check your schedule for tomorrow.",
+    "geo_example": "შეამოწმე ხვალის განრიგი."
+  },
+  {
+    "english": "come over",
+    "georgian": "მოდი ჩემთან",
+    "pronunciation": "/kʌm ˈoʊvər/",
+    "eng_example": "Come over to my house tonight.",
+    "geo_example": "ღამით ჩემთან მოდი."
+  },
+  {
+    "english": "terrific",
+    "georgian": "გადასარევი",
+    "pronunciation": "/təˈrɪfɪk/",
+    "eng_example": "That movie was terrific!",
+    "geo_example": "ეს ფილმი გადასარევი იყო!"
+  },
+  {
+    "english": "never mind",
+    "georgian": "არაუშავს / არაფერია / არ იდარდო",
+    "pronunciation": "/ˈnevər maɪnd/",
+    "eng_example": "Never mind, I'll do it myself.",
+    "geo_example": "არაუშავს, თავად გავაკეთებ."
+  },
+  {
+    "english": "competition",
+    "georgian": "შეჯიბრი / კონკურსი",
+    "pronunciation": "/ˌkɒmpəˈtɪʃən/",
+    "eng_example": "The competition starts at 3 PM.",
+    "geo_example": "შეჯიბრი 15:00 საათზე იწყება."
+  },
+  {
+    "english": "except",
+    "georgian": "გარდა / გარდა ამისა",
+    "pronunciation": "/ɪkˈsept/",
+    "eng_example": "Everyone came except John.",
+    "geo_example": "ყველა მოვიდა, გარდა ჯონისა."
+  },
+  {
+    "english": "that's too bad",
+    "georgian": "ძალიან ცუდია / საწყენია",
+    "pronunciation": "/ðæts tuː bæd/",
+    "eng_example": "That's too bad you can't come.",
+    "geo_example": "ძალიან ცუდია, რომ ვერ მოხვალ."
+  },
+  {
+    "english": "carry",
+    "georgian": "ტარება / გადატანა / წაღება",
+    "pronunciation": "/ˈkæri/",
+    "eng_example": "Can you carry this bag for me?",
+    "geo_example": "შეგიძლია ეს ჩანთა ჩემთვის ატარო?"
+  },
+  {
+    "english": "anyway",
+    "georgian": "მაინც / როგორც არ უნდა იყოს / ასე თუ ისე",
+    "pronunciation": "/ˈeniweɪ/",
+    "eng_example": "Anyway, let's continue with the lesson.",
+    "geo_example": "მაინც, გავაგრძელოთ გაკვეთილი."
+  },
+  {
+    "english": "seldom",
+    "georgian": "იშვიათად",
+    "pronunciation": "/ˈseldəm/",
+    "eng_example": "I seldom eat fast food.",
+    "geo_example": "იშვიათად ვჭამ ფასტფუდს."
+  },
+  {
+    "english": "rarely",
+    "georgian": "იშვიათად",
+    "pronunciation": "/reər/",
+    "eng_example": "It's rarely to see snow here.",
+    "geo_example": "იშვიათად ჩანს თოვლი აქ."
+  },
+  {
+    "english": "careful",
+    "georgian": "ფრთხილი",
+    "pronunciation": "/ˈkeərfəl/",
+    "eng_example": "Be careful when crossing the street.",
+    "geo_example": "ფრთხილი იყავი ქუჩის გადაკვეთისას."
+  },
+  {
+    "english": "passenger",
+    "georgian": "მგზავრი",
+    "pronunciation": "/ˈpæsɪndʒər/",
+    "eng_example": "The passenger got off the bus.",
+    "geo_example": "მგზავრი ავტობუსიდან გადმოვიდა."
+  },
+  {
+    "english": "regular",
+    "georgian": "ჩვეულებრივი",
+    "pronunciation": "/ˈreɡjələr/",
+    "eng_example": "I have regular meetings on Monday.",
+    "geo_example": "ორშაბათს ჩვეულებრივი შეხვედრები მაქვს."
+  },
+  {
+    "english": "takes classes",
+    "georgian": "იღებს გაკვეთილებს",
+    "pronunciation": "/teɪks ˈklæsɪz/",
+    "eng_example": "She takes classes at the university.",
+    "geo_example": "ის უნივერსიტეტში იღებს გაკვეთილებს."
+  },
+  {
+    "english": "weekday",
+    "georgian": "სამუშაო დღეები",
+    "pronunciation": "/ˈwiːkdeɪ/",
+    "eng_example": "I work on weekdays.",
+    "geo_example": "სამუშაო დღეებში ვმუშაობ."
+  },
+  {
+    "english": "crowded",
+    "georgian": "ხალხმრავალი / გადაჭედილი",
+    "pronunciation": "/ˈkraʊdɪd/",
+    "eng_example": "The bus was very crowded today.",
+    "geo_example": "დღეს ავტობუსი ძალიან ხალხმრავალი იყო."
+  },
+  {
+    "english": "gets together",
+    "georgian": "იკრიბება / ერთიანდება",
+    "pronunciation": "/ɡets təˈɡeðər/",
+    "eng_example": "Our family gets together every Sunday.",
+    "geo_example": "ჩვენი ოჯახი ყოველ კვირას იკრიბება."
+  },
+  {
+    "english": "until",
+    "georgian": "მდე",
+    "pronunciation": "/ənˈtɪl/",
+    "eng_example": "I'll wait until you come back.",
+    "geo_example": "დაეგლოდები, სანამ დაბრუნდები."
+  },
+  {
+    "english": "knitting",
+    "georgian": "ქსოვა",
+    "pronunciation": "/ˈnɪtɪŋ/",
+    "eng_example": "My grandmother enjoys knitting.",
+    "geo_example": "ჩემი ბებია ქსოვით სიამოვნებს."
+  },
+  {
+    "english": "the trip takes more than an hour",
+    "georgian": "მოგზაურობას ერთ საათზე მეტი დრო სჭირდება",
+    "pronunciation": "/ðə trɪp teɪks mɔːr ðən ən ˈaʊər/",
+    "eng_example": "The trip takes more than an hour by car.",
+    "geo_example": "ავტომობილით მოგზაურობას ერთ საათზე მეტი დრო სჭირდება."
+  },
+  {
+    "english": "she leaves for work",
+    "georgian": "ის გამოდის სახლიდან სამუშაოდ / ის მიდის სამსახურში",
+    "pronunciation": "/ʃi liːvz fɔːr wɜːrk/",
+    "eng_example": "She leaves for work at 8 AM.",
+    "geo_example": "ის 8 საათზე გამოდის სახლიდან სამუშაოდ."
+  },
+  {
+    "english": "she often takes one of the dogs for a walk",
+    "georgian": "მას ხშირად გამოჰყავს ერთ-ერთი ძაღლი სასეირნოდ",
+    "pronunciation": "/ʃi ˈɔːfən teɪks wʌn ʌv ðə dɔːɡz fɔːr ə wɔːk/",
+    "eng_example": "She often takes one of the dogs for a walk.",
+    "geo_example": "მას ხშირად გამოჰყავს ერთ-ერთი ძაღლი სასეირნოდ."
+  },
+  {
+    "english": "adverbs of frequency",
+    "georgian": "სიხშირის ზმნიზედა",
+    "pronunciation": "/ˈædvɜːrbz ʌv ˈfriːkwənsi/",
+    "eng_example": "Always, never, often are adverbs of frequency.",
+    "geo_example": "ყოველთვის, არასოდეს, ხშირად სიხშირის ზმნიზედებია."
+  },
+  {
+    "english": "classmates",
+    "georgian": "თანაკლასელები",
+    "pronunciation": "/ˈklæsmeɪts/",
+    "eng_example": "I meet with my classmates after school.",
+    "geo_example": "სკოლის შემდეგ ვხვდები თანაკლასელებს."
+  },
+  {
+    "english": "time expressions",
+    "georgian": "დროის აღმნიშვნელი გამონათქვამები",
+    "pronunciation": "/taɪm ɪkˈspreʃənz/",
+    "eng_example": "Yesterday, tomorrow, next week are time expressions.",
+    "geo_example": "გუშინ, ხვალ, მომავალ კვირას დროის აღმნიშვნელი გამონათქვამებია."
+  },
+  {
+    "english": "bag",
+    "georgian": "ჩანთა",
+    "pronunciation": "/bæɡ/",
+    "eng_example": "I forgot my bag at home.",
+    "geo_example": "ჩემი ჩანთა სახლში დავივიწყე."
+  },
+  {
+    "english": "prefer",
+    "georgian": "უპირატესობის მიცემა",
+    "pronunciation": "/prɪˈfɜːr/",
+    "eng_example": "I prefer tea to coffee.",
+    "geo_example": "ყავაზე ჩაის უპირატესობას ვანიჭებ."
+  },
+  {
+    "english": "sell",
+    "georgian": "გაყიდვა",
+    "pronunciation": "/sel/",
+    "eng_example": "They sell fresh vegetables at the market.",
+    "geo_example": "ბაზარში ახალ ბოსტნეულს ყიდიან."
+  },
+  {
+    "english": "decide",
+    "georgian": "გადაწყვეტა",
+    "pronunciation": "/dɪˈsaɪd/",
+    "eng_example": "I can't decide what to eat.",
+    "geo_example": "ვერ ვწყვეტ რა ვჭამო."
+  },
+  {
+    "english": "former",
+    "georgian": "ყოფილი",
+    "pronunciation": "/ˈfɔːrmər/",
+    "eng_example": "He is a former teacher.",
+    "geo_example": "ის ყოფილი მასწავლებელია."
+  },
+  {
+    "english": "either",
+    "georgian": "არც / ასევე",
+    "pronunciation": "/ˈaɪðər/",
+    "eng_example": "I don't like either option.",
+    "geo_example": "არც ერთი ვარიანტი მომწონს."
+  },
+  {
+    "english": "ask",
+    "georgian": "თხოვნა / კითხვა",
+    "pronunciation": "/æsk/",
+    "eng_example": "Can I ask you a question?",
+    "geo_example": "შემიძლია კითხვა დაგისვა?"
+  },
+  {
+    "english": "whole month",
+    "georgian": "მთელი თვე",
+    "pronunciation": "/hoʊl mʌnθ/",
+    "eng_example": "I worked the whole month without a break.",
+    "geo_example": "მთელი თვე შესვენების გარეშე ვიმუშავე."
+  },
+  {
+    "english": "through",
+    "georgian": "გავლით / საშუალებით / მეშვეობით",
+    "pronunciation": "/θruː/",
+    "eng_example": "I found this job through a friend.",
+    "geo_example": "ეს სამუშაო მეგობრის საშუალებით ვიპოვე."
+  },
+  {
+    "english": "waste of time",
+    "georgian": "დროის ფლანგვა",
+    "pronunciation": "/weɪst ʌv taɪm/",
+    "eng_example": "This meeting is a waste of time.",
+    "geo_example": "ეს შეხვედრა დროის ფლანგვაა."
+  },
+  {
+    "english": "waste of money",
+    "georgian": "ფულის ფლანგვა",
+    "pronunciation": "/weɪst ʌv ˈmʌni/",
+    "eng_example": "Buying that was a waste of money.",
+    "geo_example": "მისი ყიდვა ფულის ფლანგვა იყო."
+  },
+  {
+    "english": "gadget",
+    "georgian": "გაჯეტი / ელექტრონული მოწყობილობა",
+    "pronunciation": "/ˈɡædʒɪt/",
+    "eng_example": "He loves buying new gadgets.",
+    "geo_example": "მას უყვარს ახალი გაჯეტების ყიდვა."
+  },
+  {
+    "english": "backpack",
+    "georgian": "ზურგჩანთა",
+    "pronunciation": "/ˈbækpæk/",
+    "eng_example": "I carry my laptop in my backpack.",
+    "geo_example": "ლეპტოპს ზურგჩანთაში ვატარებ."
+  },
+  {
+    "english": "though",
+    "georgian": "მიუხედავად ამისა / თუმცა",
+    "pronunciation": "/ðoʊ/",
+    "eng_example": "It's raining, though I'll still go out.",
+    "geo_example": "წვიმს, თუმცა მაინც გავალ გარეთ."
+  },
+  {
+    "english": "next door",
+    "georgian": "მეზობლად / გვერდით სახლში",
+    "pronunciation": "/nekst dɔːr/",
+    "eng_example": "She lives next door to me.",
+    "geo_example": "ის ჩემთან მეზობლად ცხოვრობს."
+  },
+  {
+    "english": "recipe",
+    "georgian": "რეცეპტი",
+    "pronunciation": "/ˈresəpi/",
+    "eng_example": "Can you share the recipe with me?",
+    "geo_example": "შეგიძლია რეცეპტი გამიზიარო?"
+  },
+  {
+    "english": "It is on in five minutes",
+    "georgian": "დაიწყება 5 წუთში",
+    "pronunciation": "/ɪt ɪz ɒn ɪn faɪv ˈmɪnɪts/",
+    "eng_example": "The show is on in five minutes.",
+    "geo_example": "შოუ დაიწყება 5 წუთში."
+  },
+  {
+    "english": "So do I",
+    "georgian": "მეც ასე / მეც იგივე",
+    "pronunciation": "/soʊ duː aɪ/",
+    "eng_example": "I love pizza. So do I!",
+    "geo_example": "მიყვარს პიცა. მეც ასე!"
+  },
+  {
+    "english": "I'm so sorry",
+    "georgian": "ძალიან ვწუხვარ",
+    "pronunciation": "/aɪm soʊ ˈsɒri/",
+    "eng_example": "I'm so sorry for being late.",
+    "geo_example": "ძალიან ვწუხვარ, რომ დავაგვიანე."
+  },
+  {
+    "english": "smoke",
+    "georgian": "ბოლი / მოწევა",
+    "pronunciation": "/smoʊk/",
+    "eng_example": "There's too much smoke in the room.",
+    "geo_example": "ოთახში ძალიან ბევრი ბოლია."
+  },
+  {
+    "english": "smoky",
+    "georgian": "ბოლით სავსე / ბოლიანი",
+    "pronunciation": "/ˈsmoʊki/",
+    "eng_example": "The room is very smoky.",
+    "geo_example": "ოთახი ძალიან ბოლიანია."
+  },
+  {
+    "english": "looks like",
+    "georgian": "გავს / ჩანს",
+    "pronunciation": "/lʊks laɪk/",
+    "eng_example": "It looks like rain today.",
+    "geo_example": "ჩანს, რომ დღეს წვიმს."
+  },
+  {
+    "english": "such",
+    "georgian": "ასეთი / ისეთი",
+    "pronunciation": "/sʌtʃ/",
+    "eng_example": "I've never seen such a beautiful place.",
+    "geo_example": "არასოდეს მინახავს ასეთი ლამაზი ადგილი."
+  },
+  {
+    "english": "Let me see",
+    "georgian": "ნება მომეცი ვნახო / ნება მომეცი მოვიფიქრო / ნება მომეცი დავფიქრდე",
+    "pronunciation": "/let miː siː/",
+    "eng_example": "Let me see if I have time tomorrow.",
+    "geo_example": "ნება მომეცი ვნახო, ხვალ დრო მაქვს თუ არა."
+  },
+  {
+    "english": "That works for me",
+    "georgian": "მაწყობს",
+    "pronunciation": "/ðæt wɜːrks fɔːr miː/",
+    "eng_example": "Friday at 6 PM? That works for me.",
+    "geo_example": "პარასკევს 6 საათზე? მაწყობს."
+  },
+  {
+    "english": "I need all the help I can get",
+    "georgian": "მჭირდება მთელი დახმარება რაც შეიძლება მივიღო",
+    "pronunciation": "/aɪ niːd ɔːl ðə help aɪ kæn ɡet/",
+    "eng_example": "I need all the help I can get with this project.",
+    "geo_example": "ამ პროექტზე მჭირდება მთელი დახმარება რაც შეიძლება მივიღო."
+  },
+  {
+    "english": "making plans",
+    "georgian": "რაიმეს დაგეგმვა",
+    "pronunciation": "/ˈmeɪkɪŋ plænz/",
+    "eng_example": "We're making plans for the weekend.",
+    "geo_example": "შაბათ-კვირას ვგეგმავთ რამეს."
+  },
+  {
+    "english": "I'd love to",
+    "georgian": "ძალიან მინდა, სიამოვნებით",
+    "pronunciation": "/aɪd lʌv tuː/",
+    "eng_example": "Would you like to join us? I'd love to!",
+    "geo_example": "გინდა შემოგვიერთდე? სიამოვნებით!"
+  },
+  {
+    "english": "How about next Wednesday?",
+    "georgian": "რას იტყვი მომავალ ოთხშაბათზე?",
+    "pronunciation": "/haʊ əˈbaʊt nekst ˈwenzdeɪ/",
+    "eng_example": "How about next Wednesday for lunch?",
+    "geo_example": "რას იტყვი მომავალ ოთხშაბათზე სადილისთვის?"
+  },
+  {
+    "english": "Why don't we try it?",
+    "georgian": "მოდი ვცადოთ ეგ!",
+    "pronunciation": "/waɪ doʊnt wiː traɪ ɪt/",
+    "eng_example": "This restaurant looks nice. Why don't we try it?",
+    "geo_example": "ეს რესტორანი კარგი ჩანს. მოდი ვცადოთ ეგ!"
+  },
+  {
+    "english": "Are you free next Friday?",
+    "georgian": "გცალია მომავალ პარასკევს?",
+    "pronunciation": "/ɑːr juː friː nekst ˈfraɪdeɪ/",
+    "eng_example": "Are you free next Friday evening?",
+    "geo_example": "გცალია მომავალ პარასკევს საღამოს?"
+  },
+  {
+    "english": "That'd be great!",
+    "georgian": "კარგი იქნებოდა!",
+    "pronunciation": "/ðæt wʊd biː ɡreɪt/",
+    "eng_example": "Let's meet at 7. That'd be great!",
+    "geo_example": "მოდი 7 საათზე შევხვდეთ. კარგი იქნებოდა!"
+  },
+  {
+    "english": "suggestion",
+    "georgian": "შეთავაზება",
+    "pronunciation": "/səˈdʒestʃən/",
+    "eng_example": "Do you have any suggestions?",
+    "geo_example": "გაქვთ რაიმე შეთავაზება?"
+  },
+  {
+    "english": "spare",
+    "georgian": "თავისუფალი / სათადარიგო",
+    "pronunciation": "/speər/",
+    "eng_example": "Do you have any spare time today?",
+    "geo_example": "დღეს გაქვს თავისუფალი დრო?"
+  },
+  {
+    "english": "get together",
+    "georgian": "შეხვედრა / ერთად შეგროვება / ერთად ყოფნა",
+    "pronunciation": "/ɡet təˈɡeðər/",
+    "eng_example": "Let's get together this weekend.",
+    "geo_example": "მოდი ამ შაბათ-კვირას შევხვდეთ."
+  },
+  {
+    "english": "occasion",
+    "georgian": "შემთხვევა / ღონისძიება",
+    "pronunciation": "/əˈkeɪʒən/",
+    "eng_example": "It's a special occasion today.",
+    "geo_example": "დღეს განსაკუთრებული ღონისძიებაა."
+  },
+  {
+    "english": "Have a lot to talk about",
+    "georgian": "სალაპარაკო ბევრი გვაქვს / ბევრი გვაქვს სალაპარაკო",
+    "pronunciation": "/hæv ə lɒt tuː tɔːk əˈbaʊt/",
+    "eng_example": "We have a lot to talk about.",
+    "geo_example": "სალაპარაკო ბევრი გვაქვს."
+  },
+  {
+    "english": "I hope so",
+    "georgian": "იმედი მაქვს",
+    "pronunciation": "/aɪ hoʊp soʊ/",
+    "eng_example": "Will we finish on time? I hope so.",
+    "geo_example": "დროულად დავასრულებთ? იმედი მაქვს."
+  },
+  {
+    "english": "so",
+    "georgian": "როგორც / რადგან / იმიტომ რომ",
+    "pronunciation": "/soʊ/",
+    "eng_example": "I was tired, so I went to bed early.",
+    "geo_example": "დაღლილი ვიყავი, იმიტომ ადრე წავედი საძინებლად."
+  },
+  {
+    "english": "would like",
+    "georgian": "სურვილი",
+    "pronunciation": "/wʊd laɪk/",
+    "eng_example": "I would like a cup of tea.",
+    "geo_example": "მინდა ერთი ჭიქა ჩაი."
+  },
+  {
+    "english": "How are things?",
+    "georgian": "როგორ მიდის საქმეები?",
+    "pronunciation": "/haʊ ɑːr θɪŋz/",
+    "eng_example": "Hey! How are things with you?",
+    "geo_example": "გამარჯობა! როგორ მიდის საქმეები?"
+  },
+  {
+    "english": "Hope you can make it",
+    "georgian": "იმედი მაქვს შეძლებ მოსვლას / იმედი მაქვს მოხვალ",
+    "pronunciation": "/hoʊp juː kæn meɪk ɪt/",
+    "eng_example": "Hope you can make it to the party.",
+    "geo_example": "იმედი მაქვს შეძლებ წვეულებაზე მოსვლას."
+  },
+  {
+    "english": "It's good to hear from you.",
+    "georgian": "მიხარია რომ მომწერე",
+    "pronunciation": "/ɪts ɡʊd tuː hɪər frɒm juː/",
+    "eng_example": "It's good to hear from you after so long.",
+    "geo_example": "მიხარია, რომ ამდენი ხნის შემდეგ მომწერე."
+  },
+  {
+    "english": "keep in touch",
+    "georgian": "ხაზზე იყავი / კონტაქტზე იყავი",
+    "pronunciation": "/kiːp ɪn tʌtʃ/",
+    "eng_example": "Let's keep in touch!",
+    "geo_example": "მოდი ხაზზე ვიყოთ!"
+  },
+  {
+    "english": "get used to",
+    "georgian": "შეეჩვიო / შეეგუო",
+    "pronunciation": "/ɡet juːzd tuː/",
+    "eng_example": "I need to get used to this new schedule.",
+    "geo_example": "ამ ახალ განრიგს უნდა შევეჩვიო."
+  },
+  {
+    "english": "indeed",
+    "georgian": "მართლა / ნამდვილად / სინამდვილეში",
+    "pronunciation": "/ɪnˈdiːd/",
+    "eng_example": "That was indeed a great performance.",
+    "geo_example": "ეს მართლა შესანიშნავი გამოსვლა იყო."
+  },
+  {
+    "english": "I'm kinda tired",
+    "georgian": "ცოტათი დაღლილი ვარ",
+    "pronunciation": "/aɪm ˈkaɪndə ˈtaɪərd/",
+    "eng_example": "I'm kinda tired after work.",
+    "geo_example": "სამუშაოს შემდეგ ცოტათი დაღლილი ვარ."
+  },
+  {
+    "english": "necessary",
+    "georgian": "საჭირო / აუცილებელი",
+    "pronunciation": "/ˈnesəseri/",
+    "eng_example": "Water is necessary for life.",
+    "geo_example": "წყალი საჭიროა სიცოცხლისთვის."
+  },
+  {
+    "english": "yard",
+    "georgian": "ეზო",
+    "pronunciation": "/jɑːrd/",
+    "eng_example": "The children are playing in the yard.",
+    "geo_example": "ბავშვები ეზოში თამაშობენ."
+  },
+  {
+    "english": "arrangement",
+    "georgian": "შეთანხმება / მომზადება / დაგეგმვა",
+    "pronunciation": "/əˈreɪndʒmənt/",
+    "eng_example": "We made arrangements for the meeting.",
+    "geo_example": "შეხვედრისთვის შევთანხმდით."
+  }
+]

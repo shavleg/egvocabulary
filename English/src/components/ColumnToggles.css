@@ -1,0 +1,59 @@
+.column-toggle-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.toggle-btn {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+}
+
+.toggle-btn.active {
+  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  box-shadow: 0 3px 10px rgba(255, 107, 107, 0.3);
+}
+
+.toggle-btn.active:hover {
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+@media (max-width: 768px) {
+  .column-toggle-container {
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .toggle-btn {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+    gap: 6px;
+    flex: 1;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toggle-btn {
+    padding: 9px 14px;
+    font-size: 0.8rem;
+    gap: 4px;
+  }
+}

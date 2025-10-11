@@ -1,0 +1,64 @@
+.pronunciation-cell-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.pronunciation-text {
+  flex: 1;
+  text-align: center;
+}
+
+.speak-btn {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 10px;
+  color: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.speak-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+}
+
+.speak-btn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .speak-btn {
+    width: 22px;
+    height: 22px;
+    font-size: 10px;
+  }
+  
+  .pronunciation-cell-container {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .speak-btn {
+    width: 20px;
+    height: 20px;
+    font-size: 9px;
+  }
+  
+  .pronunciation-cell-container {
+    gap: 4px;
+  }
+  
+  .pronunciation-text {
+    font-size: 0.78rem;
+  }
+}
