@@ -1,33 +1,11 @@
-.view-modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  padding: 20px;
-  animation: fadeIn 0.3s ease;
-}
-
-.view-modal {
-  background: white;
-  border-radius: 20px;
-  padding: 40px;
-  max-width: 90vw;
-  max-height: 90vh;
-  position: relative;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+.view-modal-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-width: 600px;
   min-height: 400px;
-  animation: modalSlideIn 0.3s ease-out;
+  padding: 40px;
 }
 
 .view-close-btn {
@@ -106,26 +84,6 @@
   font-weight: 400;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes modalSlideIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9) translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-  }
-}
-
 @keyframes slideUp {
   from {
     opacity: 0;
@@ -150,7 +108,7 @@
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  .view-modal {
+  .view-modal-content {
     min-width: 90vw;
     min-height: 70vh;
     padding: 30px 20px;
@@ -179,7 +137,7 @@
 }
 
 @media (max-width: 480px) {
-  .view-modal {
+  .view-modal-content {
     min-width: 95vw;
     min-height: 60vh;
     padding: 20px 15px;
