@@ -93,7 +93,7 @@
   {
     "english": "sentence",
     "georgian": "წინადადება",
-    "pronunciation": "/ˈsentənsɪz/",
+    "pronunciation": "/ˈsentəns/",
     "eng_example": "Write five sentences about your family.",
     "geo_example": "დაწერე ხუთი წინადადება შენი ოჯახის შესახებ."
   },
@@ -205,7 +205,7 @@
   {
     "english": "noun",
     "georgian": "არსებითი სახელი",
-    "pronunciation": "/naʊnz/",
+    "pronunciation": "/naʊn/",
     "eng_example": "Cat, dog, and house are nouns.",
     "geo_example": "კატა, ძაღლი და სახლი არის არსებითი სახელები."
   },
@@ -240,7 +240,7 @@
   {
     "english": "order",
     "georgian": "რიგი / თანმიმდევრობა",
-    "pronunciation": "/sɔːrt/",
+    "pronunciation": "/ˈɔːrdər/",
     "eng_example": "Can you order the pizza?",
     "geo_example": "შეგიძლია შეკვეთო პიცა?"
   },
@@ -394,7 +394,7 @@
   {
     "english": "tenses",
     "georgian": "ზმნის დროები",
-    "pronunciation": "/tensɪz/",
+    "pronunciation": "/ˈtensɪz/",
     "eng_example": "We studied English tenses today.",
     "geo_example": "დღეს ინგლისური ზმნის დროები შევისწავლეთ."
   },
@@ -448,9 +448,9 @@
     "geo_example": "ყოველ დილას ადრე ვიღვიძებ."
   },
   {
-    "english": "prefers to",
-    "georgian": "ამჯობინებს / მიუთითებს / გულისხმობს / აღნიშნავს",
-    "pronunciation": "/prɪˈfɜːrz tuː/",
+    "english": "refers to",
+    "georgian": "მიუთითებს / გულისხმობს / აღნიშნავს",
+    "pronunciation": "/rɪˈfɜːrz tuː/",
     "eng_example": "The word 'dog' refers to an animal.",
     "geo_example": "სიტყვა 'dog' გულისხმობს ცხოველს."
   },
@@ -674,8 +674,8 @@
   {
     "english": "rarely",
     "georgian": "იშვიათად",
-    "pronunciation": "/reər/",
-    "eng_example": "It's rarely to see snow here.",
+    "pronunciation": "/ˈreərli/",
+    "eng_example": "It's rare to see snow here.",
     "geo_example": "იშვიათად ჩანს თოვლი აქ."
   },
   {
@@ -1017,7 +1017,7 @@
   {
     "english": "spare",
     "georgian": "თავისუფალი / სათადარიგო",
-    "pronunciation": "/speər/",
+    "pronunciation": "/sper/",
     "eng_example": "Do you have any spare time today?",
     "geo_example": "დღეს გაქვს თავისუფალი დრო?"
   },
