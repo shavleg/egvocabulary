@@ -17,15 +17,18 @@ const Modal: React.FC<ModalProps> = ({
 }) => {
   // Disable body scroll when modal is open
   useEffect(() => {
-    // Save original overflow style
-    const originalOverflow = document.body.style.overflow
+    // Save original overflow styles for both html and body
+    const originalBodyOverflow = document.body.style.overflow
+    const originalHtmlOverflow = document.documentElement.style.overflow
     
-    // Disable scroll
+    // Disable scroll on both html and body (different browsers use different elements)
     document.body.style.overflow = 'hidden'
+    document.documentElement.style.overflow = 'hidden'
     
     // Cleanup: restore original overflow when modal closes
     return () => {
-      document.body.style.overflow = originalOverflow
+      document.body.style.overflow = originalBodyOverflow
+      document.documentElement.style.overflow = originalHtmlOverflow
     }
   }, [])
 
