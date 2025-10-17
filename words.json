@@ -1139,5 +1139,369 @@
     "pronunciation": "/əˈpɔɪntmənt/",
     "eng_example": "I have a doctor's appointment at 3 PM.",
     "geo_example": "მე მაქვს ექიმთან ვიზიტი 15:00 საათზე."
+  },
+  {
+    "english": "pickled",
+    "georgian": "დამწნილებული / მარილწყალში ან ძმარში შენახული",
+    "pronunciation": "/ˈpɪkəld/",
+    "eng_example": "I love pickled vegetables.",
+    "geo_example": "მიყვარს დამწნილებული ბოსტნეული."
+  },
+  {
+    "english": "snack",
+    "georgian": "მსუბუქი საჭმელი",
+    "pronunciation": "/snæk/",
+    "eng_example": "I'll have a small snack before dinner.",
+    "geo_example": "სადილამდე მცირე საჭმელს შევჭამ."
+  },
+  {
+    "english": "rule",
+    "georgian": "წესი",
+    "pronunciation": "/ruːl/",
+    "eng_example": "Follow the rules of the game.",
+    "geo_example": "დაიცავი თამაშის წესები."
+  },
+  {
+    "english": "customer",
+    "georgian": "კლიენტი",
+    "pronunciation": "/ˈkʌstəmər/",
+    "eng_example": "The customer is always right.",
+    "geo_example": "კლიენტი ყოველთვის მართალია."
+  },
+  {
+    "english": "consumer",
+    "georgian": "მომხმარებელი",
+    "pronunciation": "/kənˈsuːmər/",
+    "eng_example": "Consumers have the right to return products.",
+    "geo_example": "მომხმარებლებს აქვთ უფლება, პროდუქტები დააბრუნონ."
+  },
+  {
+    "english": "cook as you shop",
+    "georgian": "მოამზადო ყიდვისას",
+    "pronunciation": "/kʊk æz juː ʃɒp/",
+    "eng_example": "You can cook as you shop in this store.",
+    "geo_example": "ამ მაღაზიაში ყიდვისას შეგიძლია მოამზადო."
+  },
+  {
+    "english": "even",
+    "georgian": "კიდეც / მაშინაც კი / თუნდაც",
+    "pronunciation": "/ˈiːvən/",
+    "eng_example": "Even children can understand this.",
+    "geo_example": "ბავშვებსაც ეს ესმით."
+  },
+  {
+    "english": "almost",
+    "georgian": "თითქმის",
+    "pronunciation": "/ˈɔːlmoʊst/",
+    "eng_example": "I'm almost finished with my homework.",
+    "geo_example": "თითქმის დავასრულე საშინაო დავალება."
+  },
+  {
+    "english": "including",
+    "georgian": "მათ შორის / ჩათვლით",
+    "pronunciation": "/ɪnˈkluːdɪŋ/",
+    "eng_example": "All students, including John, passed the test.",
+    "geo_example": "ყველა სტუდენტმა, მათ შორის ჯონმაც, ჩააბარა ტესტი."
+  },
+  {
+    "english": "pastries",
+    "georgian": "ცომეული",
+    "pronunciation": "/ˈpeɪstriz/",
+    "eng_example": "The bakery sells fresh pastries every morning.",
+    "geo_example": "საცხობი ყოველ დილით ახალ ცომეულს ყიდის."
+  },
+  {
+    "english": "bean",
+    "georgian": "ლობიო",
+    "pronunciation": "/biːn/",
+    "eng_example": "I like to eat beans with rice.",
+    "geo_example": "მიყვარს ლობიო ბრინჯთან ერთად."
+  },
+  {
+    "english": "lamb",
+    "georgian": "ბატკანი / ცხვრის ხორცი",
+    "pronunciation": "/læm/",
+    "eng_example": "The lamb is very tender and delicious.",
+    "geo_example": "ბატკანი ძალიან რბილი და გემრიელია."
+  },
+  {
+    "english": "steak",
+    "georgian": "სტეიკი / ხორცის ნაჭერი",
+    "pronunciation": "/steɪk/",
+    "eng_example": "I ordered a medium-rare steak.",
+    "geo_example": "შევუკვეთე ნახევრად ნედლად შემწვარი სტეიკი."
+  },
+  {
+    "english": "pear",
+    "georgian": "მსხალი",
+    "pronunciation": "/per/",
+    "eng_example": "This pear is very sweet and juicy.",
+    "geo_example": "ეს მსხალი ძალიან ტკბილი და წვნიანია."
+  },
+  {
+    "english": "grape",
+    "georgian": "ყურძენი",
+    "pronunciation": "/ɡreɪp/",
+    "eng_example": "Red grapes are my favorite fruit.",
+    "geo_example": "წითელი ყურძენი ჩემი საყვარელი ხილია."
+  },
+  {
+    "english": "below",
+    "georgian": "ქვემოთ / დაბლა",
+    "pronunciation": "/bɪˈloʊ/",
+    "eng_example": "The temperature is below freezing.",
+    "geo_example": "ტემპერატურა ნულ გრადუსზე ქვემოთაა."
+  },
+  {
+    "english": "over",
+    "georgian": "ზემოთ / გადაღმა",
+    "pronunciation": "/ˈoʊvər/",
+    "eng_example": "The plane flew over the mountains.",
+    "geo_example": "თვითმფრინავი მთების ზემოთ გაფრინდა."
+  },
+  {
+    "english": "even though",
+    "georgian": "მიუხედავად იმისა, რომ",
+    "pronunciation": "/ˈiːvən ðoʊ/",
+    "eng_example": "Even though it's raining, we'll go for a walk.",
+    "geo_example": "მიუხედავად იმისა, რომ წვიმს, მაინც გავალთ სასეირნოდ."
+  },
+  {
+    "english": "such as",
+    "georgian": "მაგალითად",
+    "pronunciation": "/sʌtʃ æz/",
+    "eng_example": "I like fruits such as apples and oranges.",
+    "geo_example": "მიყვარს ხილი, მაგალითად ვაშლი და ფორთოხალი."
+  },
+  {
+    "english": "those",
+    "georgian": "ისინი / ის შორს მყოფი საგნები",
+    "pronunciation": "/ðoʊz/",
+    "eng_example": "Those books on the shelf are mine.",
+    "geo_example": "ის წიგნები თაროზე ჩემია."
+  },
+  {
+    "english": "flavor",
+    "georgian": "არომატი / გემო",
+    "pronunciation": "/ˈfleɪvər/",
+    "eng_example": "This ice cream has a vanilla flavor.",
+    "geo_example": "ამ ნაყინს ვანილის არომატი აქვს."
+  },
+  {
+    "english": "dish",
+    "georgian": "კერძი / თეფში",
+    "pronunciation": "/dɪʃ/",
+    "eng_example": "This is my favorite Italian dish.",
+    "geo_example": "ეს ჩემი საყვარელი იტალიური კერძია."
+  },
+  {
+    "english": "roasted",
+    "georgian": "ღუმელში გამომცხვარი / შემწვარი",
+    "pronunciation": "/ˈroʊstɪd/",
+    "eng_example": "I love roasted vegetables.",
+    "geo_example": "მიყვარს ღუმელში გამომცხვარი ბოსტნეული."
+  },
+  {
+    "english": "herbs",
+    "georgian": "მწვანილები",
+    "pronunciation": "/hɜːrbz/",
+    "eng_example": "Fresh herbs make the food taste better.",
+    "geo_example": "ახალი მწვანილები საჭმელს უკეთეს გემოს აძლევს."
+  },
+  {
+    "english": "oven",
+    "georgian": "ღუმელი",
+    "pronunciation": "/ˈʌvən/",
+    "eng_example": "Preheat the oven to 350 degrees.",
+    "geo_example": "გაახურე ღუმელი 350 გრადუსამდე."
+  },
+  {
+    "english": "seared",
+    "georgian": "შებრაწული / კარგად შემწვარი",
+    "pronunciation": "/sɪrd/",
+    "eng_example": "The chef seared the fish perfectly.",
+    "geo_example": "შეფმა თევზი სრულყოფილად შეწვა."
+  },
+  {
+    "english": "superb",
+    "georgian": "შესანიშნავი / გენიალური / ძალიან კარგი",
+    "pronunciation": "/suːˈpɜːrb/",
+    "eng_example": "The food at this restaurant is superb.",
+    "geo_example": "ამ რესტორანში საჭმელი შესანიშნავია."
+  },
+  {
+    "english": "mashed",
+    "georgian": "დაფშვნილი / პიურედ ქცეული",
+    "pronunciation": "/mæʃt/",
+    "eng_example": "I like mashed potatoes with butter.",
+    "geo_example": "მიყვარს კარტოფილის პიურე კარაქით."
+  },
+  {
+    "english": "boring",
+    "georgian": "მოსაბეზრებელი / მოსაწყენი",
+    "pronunciation": "/ˈbɔːrɪŋ/",
+    "eng_example": "This movie is really boring.",
+    "geo_example": "ეს ფილმი ძალიან მოსაწყენია."
+  },
+  {
+    "english": "what is in?",
+    "georgian": "რა არის შიგნით? / რას შეიცავს ეს?",
+    "pronunciation": "/wʌt ɪz ɪn/",
+    "eng_example": "What is in this soup?",
+    "geo_example": "რა არის ამ სუპში?"
+  },
+  {
+    "english": "consonant",
+    "georgian": "თანხმოვანი",
+    "pronunciation": "/ˈkɒnsənənt/",
+    "eng_example": "B, C, D are consonants.",
+    "geo_example": "B, C, D არის თანხმოვნები."
+  },
+  {
+    "english": "vowel",
+    "georgian": "ხმოვანი",
+    "pronunciation": "/ˈvaʊəl/",
+    "eng_example": "A, E, I, O, U are vowels.",
+    "geo_example": "A, E, I, O, U არის ხმოვნები."
+  },
+  {
+    "english": "quantifiers",
+    "georgian": "რაოდენობრივი სიტყვები",
+    "pronunciation": "/ˈkwɒntɪfaɪərz/",
+    "eng_example": "Some, many, few are quantifiers.",
+    "geo_example": "Some, many, few არის რაოდენობრივი სიტყვები."
+  },
+  {
+    "english": "quite a few",
+    "georgian": "საკმაოდ ბევრი",
+    "pronunciation": "/kwaɪt ə fjuː/",
+    "eng_example": "There are quite a few people at the party.",
+    "geo_example": "წვეულებაზე საკმაოდ ბევრი ადამიანია."
+  },
+  {
+    "english": "quite a bit of",
+    "georgian": "საკმაოდ ბევრი",
+    "pronunciation": "/kwaɪt ə bɪt ʌv/",
+    "eng_example": "I have quite a bit of work to do.",
+    "geo_example": "საკმაოდ ბევრი სამუშაო მაქვს."
+  },
+  {
+    "english": "a few",
+    "georgian": "რამდენიმე",
+    "pronunciation": "/ə fjuː/",
+    "eng_example": "I need a few more minutes.",
+    "geo_example": "კიდევ რამდენიმე წუთი მჭირდება."
+  },
+  {
+    "english": "a little",
+    "georgian": "ცოტა მაგრამ საკმარისი",
+    "pronunciation": "/ə ˈlɪtəl/",
+    "eng_example": "I have a little money left.",
+    "geo_example": "ცოტა ფული დამრჩა."
+  },
+  {
+    "english": "not many",
+    "georgian": "არა ბევრი",
+    "pronunciation": "/nɒt ˈmeni/",
+    "eng_example": "There are not many people here.",
+    "geo_example": "აქ არ არის ბევრი ადამიანი."
+  },
+  {
+    "english": "not much",
+    "georgian": "არა ბევრი",
+    "pronunciation": "/nɒt mʌtʃ/",
+    "eng_example": "I don't have much time.",
+    "geo_example": "ბევრი დრო არ მაქვს."
+  },
+  {
+    "english": "not any",
+    "georgian": "არცერთი / საერთოდ არა",
+    "pronunciation": "/nɒt ˈeni/",
+    "eng_example": "There are not any cookies left.",
+    "geo_example": "არცერთი ქუქი არ დარჩა."
+  },
+  {
+    "english": "furniture",
+    "georgian": "ავეჯი",
+    "pronunciation": "/ˈfɜːrnɪtʃər/",
+    "eng_example": "We need to buy new furniture.",
+    "geo_example": "ახალი ავეჯი უნდა ვიყიდოთ."
+  },
+  {
+    "english": "fizzy",
+    "georgian": "გაზიანი",
+    "pronunciation": "/ˈfɪzi/",
+    "eng_example": "I prefer fizzy drinks over still water.",
+    "geo_example": "ჩვეულებრივ წყალზე მეტად გაზიან სასმელებს ვანიჭებ უპირატესობას."
+  },
+  {
+    "english": "mixed",
+    "georgian": "შერეული",
+    "pronunciation": "/mɪkst/",
+    "eng_example": "This is a mixed salad with vegetables.",
+    "geo_example": "ეს შერეული სალათია ბოსტნეულით."
+  },
+  {
+    "english": "garlic",
+    "georgian": "ნიორი",
+    "pronunciation": "/ˈɡɑːrlɪk/",
+    "eng_example": "Add some garlic to the sauce.",
+    "geo_example": "სოუსში ცოტა ნიორი ჩაამატე."
+  },
+  {
+    "english": "melon",
+    "georgian": "ნესვი",
+    "pronunciation": "/ˈmelən/",
+    "eng_example": "This melon is very sweet and juicy.",
+    "geo_example": "ეს ნესვი ძალიან ტკბილი და წვნიანია."
+  },
+  {
+    "english": "cereal",
+    "georgian": "მარცვლეული / საუზმის ფანტელები",
+    "pronunciation": "/ˈsɪriəl/",
+    "eng_example": "I eat cereal for breakfast every morning.",
+    "geo_example": "ყოველ დილას მარცვლეულს ვჭამ საუზმეზე."
+  },
+  {
+    "english": "a jar of",
+    "georgian": "ერთი ქილა",
+    "pronunciation": "/ə dʒɑːr ʌv/",
+    "eng_example": "I bought a jar of honey.",
+    "geo_example": "ერთი ქილა თაფლი ვიყიდე."
+  },
+  {
+    "english": "a bag of",
+    "georgian": "ერთი პარკი ან ტომარა",
+    "pronunciation": "/ə bæɡ ʌv/",
+    "eng_example": "Can you get me a bag of rice?",
+    "geo_example": "შეგიძლია ერთი პარკი ბრინჯი მომიტანო?"
+  },
+  {
+    "english": "a can of",
+    "georgian": "ერთი ლითონის ქილა",
+    "pronunciation": "/ə kæn ʌv/",
+    "eng_example": "I opened a can of soup.",
+    "geo_example": "ერთი ქილა სუპი გავხსენი."
+  },
+  {
+    "english": "a bottle of",
+    "georgian": "ერთი ბოთლი",
+    "pronunciation": "/ə ˈbɒtəl ʌv/",
+    "eng_example": "She drank a bottle of water.",
+    "geo_example": "მან ერთი ბოთლი წყალი დალია."
+  },
+  {
+    "english": "a bar of",
+    "georgian": "ერთი ფილა",
+    "pronunciation": "/ə bɑːr ʌv/",
+    "eng_example": "I bought a bar of chocolate.",
+    "geo_example": "ერთი ფილა შოკოლადი ვიყიდე."
+  },
+  {
+    "english": "a package of",
+    "georgian": "ერთი შეფუთვა",
+    "pronunciation": "/ə ˈpækɪdʒ ʌv/",
+    "eng_example": "We bought a package of cookies.",
+    "geo_example": "ერთი შეფუთვა ქუქი ვიყიდეთ."
   }
 ]
