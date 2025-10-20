@@ -1503,5 +1503,194 @@
     "pronunciation": "/ə ˈpækɪdʒ ʌv/",
     "eng_example": "We bought a package of cookies.",
     "geo_example": "ერთი შეფუთვა ქუქი ვიყიდეთ."
+  },
+  {
+    "english": "spice",
+    "georgian": "სანელებელი",
+    "pronunciation": "/spaɪs/",
+    "eng_example": "This dish needs more spice.",
+    "geo_example": "ამ კერძს უფრო მეტი სანელებელი სჭირდება."
+  },
+  {
+    "english": "spicy",
+    "georgian": "ცხარე",
+    "pronunciation": "/ˈspaɪsi/",
+    "eng_example": "This salad is very spicy.",
+    "geo_example": "ეს სალათი ძალიან ცხარეა."
+  },
+  {
+    "english": "finds it difficult to",
+    "georgian": "ერთულება",
+    "pronunciation": "/faɪndz ɪt ˈdɪfɪkəlt tuː/",
+    "eng_example": "She finds it difficult to wake up early.",
+    "geo_example": "მას ერთულება ადრე ადგომა."
+  },
+  {
+    "english": "appetizers",
+    "georgian": "მადისაღმძვრელი კერძები / სტარტერი / მცირე საჭმელი საჭმლის დაწყებამდე",
+    "pronunciation": "/ˈæpɪtaɪzərz/",
+    "eng_example": "We ordered some appetizers before the main course.",
+    "geo_example": "მთავარ კერძამდე მადისაღმძვრელი კერძები შევუკვეთეთ."
+  },
+  {
+    "english": "entrees",
+    "georgian": "მთავარი კერძი",
+    "pronunciation": "/ˈɑːntreɪz/",
+    "eng_example": "The entrees at this restaurant are excellent.",
+    "geo_example": "ამ რესტორანში მთავარი კერძები შესანიშნავია."
+  },
+  {
+    "english": "arrive",
+    "georgian": "ჩამოსვლა / მისვლა",
+    "pronunciation": "/əˈraɪv/",
+    "eng_example": "What time will you arrive at the airport?",
+    "geo_example": "რა დროს ჩამოხვალ აეროპორტში?"
+  },
+  {
+    "english": "thats fine from me",
+    "georgian": "ჩემთვის მისაღებია",
+    "pronunciation": "/ðæts faɪn frʌm miː/",
+    "eng_example": "That's fine from me, we can go tomorrow.",
+    "geo_example": "ჩემთვის მისაღებია, ხვალ შეგვიძლია წავიდეთ."
+  },
+  {
+    "english": "over there",
+    "georgian": "იქით / იქ",
+    "pronunciation": "/ˈoʊvər ðer/",
+    "eng_example": "The store is over there on the corner.",
+    "geo_example": "მაღაზია იქითაა კუთხეში."
+  },
+  {
+    "english": "although",
+    "georgian": "თუმცა / მიუხედავად იმისა",
+    "pronunciation": "/ɔːlˈðoʊ/",
+    "eng_example": "Although it's raining, we'll still go for a walk.",
+    "geo_example": "თუმცა წვიმს, მაინც სასეირნოდ გავალთ."
+  },
+  {
+    "english": "further",
+    "georgian": "უფრო შორს",
+    "pronunciation": "/ˈfɜːrðər/",
+    "eng_example": "We need to go further to find the hotel.",
+    "geo_example": "სასტუმროს საპოვნელად უფრო შორს უნდა წავიდეთ."
+  },
+  {
+    "english": "go ahead",
+    "georgian": "მიდი / დაიწყე / გააგრძელე",
+    "pronunciation": "/ɡoʊ əˈhed/",
+    "eng_example": "Go ahead and start without me.",
+    "geo_example": "მიდი და ჩემს გარეშე დაიწყე."
+  },
+  {
+    "english": "curry",
+    "georgian": "სუნელი",
+    "pronunciation": "/ˈkɜːri/",
+    "eng_example": "This curry has a wonderful aroma.",
+    "geo_example": "ამ სუნელს შესანიშნავი არომატი აქვს."
+  },
+  {
+    "english": "raw",
+    "georgian": "უმი",
+    "pronunciation": "/rɔː/",
+    "eng_example": "I prefer raw vegetables in my salad.",
+    "geo_example": "სალათში უმი ბოსტნეული მირჩევნია."
+  },
+  {
+    "english": "anything else?",
+    "georgian": "კიდევ რამე?",
+    "pronunciation": "/ˈeniθɪŋ els/",
+    "eng_example": "Anything else you'd like to order?",
+    "geo_example": "კიდევ რამე გინდა შეუკვეთო?"
+  },
+  {
+    "english": "it's so hard to decide",
+    "georgian": "ძალიან ძნელია გადაწყვეტილების მიღება",
+    "pronunciation": "/ɪts soʊ hɑːrd tuː dɪˈsaɪd/",
+    "eng_example": "There are so many options, it's so hard to decide.",
+    "geo_example": "იმდენი ვარიანტია, ძალიან ძნელია გადაწყვეტილების მიღება."
+  },
+  {
+    "english": "with that",
+    "georgian": "მაგასთან ერთად / ამისთანავე",
+    "pronunciation": "/wɪð ðæt/",
+    "eng_example": "With that said, let's move on to the next topic.",
+    "geo_example": "ამისთანავე, შემდეგ თემაზე გადავიდეთ."
+  },
+  {
+    "english": "at least",
+    "georgian": "მაინც / ყოველ შემთხვევაში / სულ მცირე",
+    "pronunciation": "/æt liːst/",
+    "eng_example": "At least we tried our best.",
+    "geo_example": "მაინც ყველაფერი შევეცადეთ."
+  },
+  {
+    "english": "I will have",
+    "georgian": "მე ავიღებ / შევუკვეთავ",
+    "pronunciation": "/aɪ wɪl hæv/",
+    "eng_example": "I will have the chicken salad, please.",
+    "geo_example": "ქათმის სალათს შევუკვეთავ, გთხოვთ."
+  },
+  {
+    "english": "that's it",
+    "georgian": "ესაა / მეტი აღარ / საკმარისია",
+    "pronunciation": "/ðæts ɪt/",
+    "eng_example": "That's it, no more questions.",
+    "geo_example": "ესაა, მეტი კითხვა აღარ."
+  },
+  {
+    "english": "being",
+    "georgian": "რაღაცად ყოფნა",
+    "pronunciation": "/ˈbiːɪŋ/",
+    "eng_example": "Being a teacher requires patience.",
+    "geo_example": "მასწავლებლად ყოფნა მოთმინებას მოითხოვს."
+  },
+  {
+    "english": "you will need to wait for 20 minutes",
+    "georgian": "დაგჭირდება 20 წუთი ლოდინი",
+    "pronunciation": "/juː wɪl niːd tuː weɪt fɔːr twenti ˈmɪnɪts/",
+    "eng_example": "You will need to wait for 20 minutes for your order.",
+    "geo_example": "შეკვეთისთვის დაგჭირდება 20 წუთი ლოდინი."
+  },
+  {
+    "english": "these",
+    "georgian": "ესენი (მრავლობითი ფორმა \"this\"-ის)",
+    "pronunciation": "/ðiːz/",
+    "eng_example": "These books are very interesting.",
+    "geo_example": "ეს წიგნები ძალიან საინტერესოა."
+  },
+  {
+    "english": "meal",
+    "georgian": "კერძი / კვება / ჭამა",
+    "pronunciation": "/miːl/",
+    "eng_example": "This was a delicious meal.",
+    "geo_example": "ეს გემრიელი კვება იყო."
+  },
+  {
+    "english": "fancy",
+    "georgian": "მოდური / მდიდრული / ელეგანტური",
+    "pronunciation": "/ˈfænsi/",
+    "eng_example": "This is a very fancy restaurant.",
+    "geo_example": "ეს ძალიან მოდური რესტორანია."
+  },
+  {
+    "english": "narrator",
+    "georgian": "მთხრობელი",
+    "pronunciation": "/nəˈreɪtər/",
+    "eng_example": "The narrator told the story beautifully.",
+    "geo_example": "მთხრობელმა მშვენივრად მოგვიყვა ამბავი."
+  },
+  {
+    "english": "definitely",
+    "georgian": "აუცილებლად / ნამდვილად / უეჭველად",
+    "pronunciation": "/ˈdefɪnətli/",
+    "eng_example": "I will definitely come to the party.",
+    "geo_example": "ნამდვილად მოვალ წვეულებაზე."
+  },
+  {
+    "english": "I'm really bad at cooking",
+    "georgian": "ძალიან ცუდად გამომდის საჭმლის მომზადება",
+    "pronunciation": "/aɪm ˈrɪəli bæd æt ˈkʊkɪŋ/",
+    "eng_example": "I'm really bad at cooking, so I usually order takeout.",
+    "geo_example": "ძალიან ცუდად გამომდის საჭმლის მომზადება, ამიტომ ჩვეულებრივ შეკვეთას ვაკეთებ."
   }
 ]
