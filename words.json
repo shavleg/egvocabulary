@@ -1275,7 +1275,7 @@
   },
   {
     "english": "those",
-    "georgian": "ისინი / ის შორს მყოფი საგნები",
+    "georgian": "ისინი, (მრავლობითი ფორმა 'that'-ის, შორს მყოფი საგნებისთვის)",
     "pronunciation": "/ðoʊz/",
     "eng_example": "Those books on the shelf are mine.",
     "geo_example": "ის წიგნები თაროზე ჩემია."
@@ -1653,10 +1653,24 @@
   },
   {
     "english": "these",
-    "georgian": "ესენი (მრავლობითი ფორმა \"this\"-ის)",
+    "georgian": "ესენი, (მრავლობითი ფორმა 'this'-ის, ახლოს მყოფ საგნებზე)",
     "pronunciation": "/ðiːz/",
     "eng_example": "These books are very interesting.",
-    "geo_example": "ეს წიგნები ძალიან საინტერესოა."
+    "geo_example": "ეს წიგნები (აქვე მყოფი) ძალიან საინტერესოა."
+  },
+  {
+    "english": "that",
+    "georgian": "ის, (ერთი საგანი, შორს მყოფი)",
+    "pronunciation": "/ðæt/",
+    "eng_example": "That book is very interesting.",
+    "geo_example": "ის წიგნი ძალიან საინტერესოა."
+  },
+  {
+    "english": "this",
+    "georgian": "ეს, (ერთი საგანი, ახლოს მყოფი)",
+    "pronunciation": "/ðɪs/",
+    "eng_example": "This book is interesting.",
+    "geo_example": "ეს წიგნი საინტერესოა."
   },
   {
     "english": "meal",
@@ -1699,5 +1713,215 @@
     "pronunciation": "/raɪt ðɪs weɪ/",
     "eng_example": "Right this way.",
     "geo_example": "გეთაყვა, ამ გზით წამობრძანდით."
+  },
+  {
+    "english": "agree on (something)",
+    "georgian": "რაღაცაზე შეთანხმება",
+    "pronunciation": "/əˈɡriː ɒn/",
+    "eng_example": "We agree on the plan.",
+    "geo_example": "ჩვენ გეგმაზე ვთანხმდებით."
+  },
+  {
+    "english": "agree with (somebody)",
+    "georgian": "ვიღაცას დაეთანხმო",
+    "pronunciation": "/əˈɡriː wɪð/",
+    "eng_example": "I agree with you.",
+    "geo_example": "გეთანხმები."
+  },
+  {
+    "english": "probably",
+    "georgian": "ალბათ / სავარაუდოდ",
+    "pronunciation": "/ˈprɒbəbli/",
+    "eng_example": "It will probably rain tomorrow.",
+    "geo_example": "ალბათ ხვალ წვიმა იქნება."
+  },
+  {
+    "english": "daytime",
+    "georgian": "დღის დრო / დღის განმავლობაში",
+    "pronunciation": "/ˈdeɪ.taɪm/",
+    "eng_example": "It’s safer to travel in the daytime.",
+    "geo_example": "უფრო უსაფრთხოა დღის განმავლობაში მოგზაურობა."
+  },
+  {
+    "english": "whose",
+    "georgian": "ვისი",
+    "pronunciation": "/huːz/",
+    "eng_example": "Whose book is this?",
+    "geo_example": "ეს ვისი წიგნია?"
+  },
+  {
+    "english": "roommate",
+    "georgian": "ოთახის მეზობელი / ის, ვისთანაც ერთად ცხოვრობ",
+    "pronunciation": "/ˈruːm.meɪt/",
+    "eng_example": "My roommate is from Canada.",
+    "geo_example": "ჩემი ოთახის მეზობელი კანადელია."
+  },
+  {
+    "english": "chairs",
+    "georgian": "სკამები",
+    "pronunciation": "/tʃerz/",
+    "eng_example": "There are four chairs around the table.",
+    "geo_example": "მაგიდის გარშემო ოთხი სკამია."
+  },
+  {
+    "english": "couch",
+    "georgian": "დივანი / რბილი სავარძელი",
+    "pronunciation": "/kaʊtʃ/",
+    "eng_example": "I'm sitting on the couch watching TV.",
+    "geo_example": "დივანზე ვზივარ და ტელევიზორს ვუყურებ."
+  },
+  {
+    "english": "stove",
+    "georgian": "გაზქურა / ღუმელი",
+    "pronunciation": "/stoʊv/",
+    "eng_example": "The soup is cooking on the stove.",
+    "geo_example": "სუპი გაზქურაზე იხარშება."
+  },
+  {
+    "english": "dresser",
+    "georgian": "კომოდი / ტუალეტის მაგიდა",
+    "pronunciation": "/ˈdresər/",
+    "eng_example": "I keep my clothes in the dresser.",
+    "geo_example": "ტანსაცმელს კომოდში ვინახავ."
+  },
+  {
+    "english": "lamp",
+    "georgian": "სანათი / ლამპა",
+    "pronunciation": "/læmp/",
+    "eng_example": "Turn on the lamp, please.",
+    "geo_example": "ჩაანთე სანათი, გთხოვ."
+  },
+  {
+    "english": "armchair",
+    "georgian": "სავარძელი მკლავებით",
+    "pronunciation": "/ˈɑːrm.tʃer/",
+    "eng_example": "He's reading in the armchair.",
+    "geo_example": "ის სავარძელში ზის და კითხულობს."
+  },
+  {
+    "english": "nightstand",
+    "georgian": "საწოლის გვერდით მაგიდა",
+    "pronunciation": "/ˈnaɪt.stænd/",
+    "eng_example": "There's a lamp on the nightstand.",
+    "geo_example": "საწოლთან მაგიდაზე სანათია."
+  },
+  {
+    "english": "sink",
+    "georgian": "ნიჟარა",
+    "pronunciation": "/sɪŋk/",
+    "eng_example": "Please wash your hands in the sink.",
+    "geo_example": "გთხოვ, ხელები ნიჟარაში დაიბანე."
+  },
+  {
+    "english": "curtains",
+    "georgian": "ფარდები",
+    "pronunciation": "/ˈkɜːr.tənz/",
+    "eng_example": "Open the curtains to let in some light.",
+    "geo_example": "გადწიე ფარდები, რომ შუქი შემოვიდეს."
+  },
+  {
+    "english": "bookcase",
+    "georgian": "წიგნების თარო / ბიბლიოთეკის კარადა",
+    "pronunciation": "/ˈbʊk.keɪs/",
+    "eng_example": "All my books are in the bookcase.",
+    "geo_example": "ჩემი ყველა წიგნი თაროზეა."
+  },
+  {
+    "english": "definition",
+    "georgian": "განმარტება / სიტყვის მნიშვნელობა",
+    "pronunciation": "/ˌdefɪˈnɪʃən/",
+    "eng_example": "What’s the definition of 'friendship'?",
+    "geo_example": "რას ნიშნავს სიტყვა „მეგობრობა“?"
+  },
+  {
+    "english": "eat well",
+    "georgian": "იკვებო ჯანსაღად / სწორად იკვებო",
+    "pronunciation": "/iːt wel/",
+    "eng_example": "I want to learn how to cook and eat well.",
+    "geo_example": "მინდა ვისწავლო როგორ მოვამზადო და ჯანსაღად ვიკვებო."
+  },
+  {
+    "english": "try out",
+    "georgian": "გამოსცადო რაღაცა პირველად / მოსინჯო",
+    "pronunciation": "/traɪ aʊt/",
+    "eng_example": "I want to try out this new app.",
+    "geo_example": "მინდა ეს ახალი აპლიკაცია გამოვცადო."
+  },
+  {
+    "english": "pork",
+    "georgian": "ღორის ხორცი",
+    "pronunciation": "/pɔːrk/",
+    "eng_example": "We had roast pork for dinner.",
+    "geo_example": "ვახშამზე შემწვარი ღორის ხორცი გვქონდა."
+  },
+  {
+    "english": "beef",
+    "georgian": "საქონლის ხორცი",
+    "pronunciation": "/biːf/",
+    "eng_example": "I ordered a beef steak.",
+    "geo_example": "შევუკვეთე საქონლის სტეიკი."
+  },
+  {
+    "english": "square",
+    "georgian": "მოედანი / კვადრატი",
+    "pronunciation": "/skwer/",
+    "eng_example": "The hotel is near the main square.",
+    "geo_example": "სასტუმრო მთავარ მოედანთანაა."
+  },
+  {
+    "english": "grocery",
+    "georgian": "სურსათი / სასურსათო მაღაზია",
+    "pronunciation": "/ˈɡroʊsəri/",
+    "eng_example": "I need to go to the grocery store.",
+    "geo_example": "უნდა წავიდე სასურსათო მაღაზიაში."
+  },
+  {
+    "english": "whole",
+    "georgian": "მთელი / სრული",
+    "pronunciation": "/hoʊl/",
+    "eng_example": "He ate the whole pizza by himself.",
+    "geo_example": "მან მთელი პიცა მარტო შეჭამა."
+  },
+  {
+    "english": "huge",
+    "georgian": "უზარმაზარი",
+    "pronunciation": "/hjuːdʒ/",
+    "eng_example": "They live in a huge house.",
+    "geo_example": "ისინი უზარმაზარ სახლში ცხოვრობენ."
+  },
+  {
+    "english": "coast",
+    "georgian": "სანაპირო ზოლი",
+    "pronunciation": "/koʊst/",
+    "eng_example": "We walked along the coast.",
+    "geo_example": "ჩვენ სანაპიროს გასწვრივ გავიარეთ."
+  },
+  {
+    "english": "narrow",
+    "georgian": "ვიწრო",
+    "pronunciation": "/ˈnæroʊ/",
+    "eng_example": "The street is too narrow for cars.",
+    "geo_example": "ქუჩა ძალიან ვიწროა მანქანებისთვის."
+  },
+  {
+    "english": "peace",
+    "georgian": "მშვიდობა / სიმშვიდე",
+    "pronunciation": "/piːs/",
+    "eng_example": "We all want to live in peace.",
+    "geo_example": "ჩვენ ყველას მშვიდობაში ცხოვრება გვინდა."
+  },
+  {
+    "english": "cartoon",
+    "georgian": "მულტფილმი",
+    "pronunciation": "/kɑːrˈtuːn/",
+    "eng_example": "My kids love watching cartoons.",
+    "geo_example": "ჩემს ბავშვებს მულტფილმების ყურება უყვართ."
+  },
+  {
+    "english": "steal",
+    "georgian": "მოპარვა",
+    "pronunciation": "/stiːl/",
+    "eng_example": "Someone tried to steal my bike.",
+    "geo_example": "ვიღაცამ სცადა ჩემი ველოსიპედი მოეპარა."
   }
 ]
