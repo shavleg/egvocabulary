@@ -11,6 +11,7 @@ export const useTest = (words: TranslateItem[]) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [userAnswers, setUserAnswers] = useState<TranslateAnswer[]>([])
   const [currentAnswer, setCurrentAnswer] = useState('')
+  const [usedWords, setUsedWords] = useState<Set<string>>(new Set())
 
   // Test functions
   const startTest = useCallback(() => {
@@ -31,15 +32,25 @@ export const useTest = (words: TranslateItem[]) => {
       wordsToUse = words
     }
     
+    // Filter out already used words
+    const availableWords = wordsToUse.filter(word => !usedWords.has(word.english))
+    
+    // If all words have been used, reset the used words
+    let finalWords = availableWords
+    if (availableWords.length === 0) {
+      setUsedWords(new Set())
+      finalWords = wordsToUse
+    }
+    
     // Select random words for test (max 10 or all if less)
-    const shuffled = [...wordsToUse].sort(() => 0.5 - Math.random())
-    const testCount = Math.min(wordsToUse.length, 10)
+    const shuffled = [...finalWords].sort(() => 0.5 - Math.random())
+    const testCount = Math.min(finalWords.length, 10)
     setTestWords(shuffled.slice(0, testCount))
     setUserAnswers([])
     setCurrentQuestionIndex(0)
     setCurrentAnswer('')
     setShowQuestionModal(true)
-  }, [words, testWords])
+  }, [words, testWords, usedWords])
 
   const startTestWithWords = useCallback((selectedWords: TranslateItem[]) => {
     setShowQuestionModal(false)
@@ -99,6 +110,16 @@ export const useTest = (words: TranslateItem[]) => {
     }
 
     setUserAnswers(prev => [...prev, newAnswer])
+    
+    // Mark word as used only if answered correctly (not partially correct)
+    if (isCorrect && !isPartiallyCorrect) {
+      setUsedWords(prev => {
+        const newUsedWords = new Set(prev)
+        newUsedWords.add(currentWord.english)
+        return newUsedWords
+      })
+    }
+    
     setCurrentAnswer('')
 
     if (currentQuestionIndex < testWords.length - 1) {
@@ -124,6 +145,8 @@ export const useTest = (words: TranslateItem[]) => {
 
     setUserAnswers(prev => [...prev, newAnswer])
     setCurrentAnswer('')
+    
+    // Don't mark skipped words as used - they should appear in future tests
 
     if (currentQuestionIndex < testWords.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1)
