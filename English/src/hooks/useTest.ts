@@ -41,7 +41,7 @@ export const useTest = (words: TranslateItem[]) => {
       setUsedWords(new Set())
       finalWords = wordsToUse
     }
-    
+    console.log({testWords: testWords, finalWords: finalWords, usedWords: usedWords, wordsToUse: wordsToUse})
     // Select random words for test (max 10 or all if less)
     const shuffled = [...finalWords].sort(() => 0.5 - Math.random())
     const testCount = Math.min(finalWords.length, 10)
@@ -59,7 +59,7 @@ export const useTest = (words: TranslateItem[]) => {
     // Store selected words for later use
     setTestWords(selectedWords)
   }, [])
-
+  console.log({testWords: testWords, usedWords: usedWords})
   const checkAnswer = useCallback((userAnswer, correctAnswer) => {
     const userAnswerLower = userAnswer.toLowerCase().trim()
     const correctAnswers = correctAnswer.toLowerCase().trim().split('/').map(answer => answer.trim())
