@@ -1923,5 +1923,236 @@
     "pronunciation": "/stiːl/",
     "eng_example": "Someone tried to steal my bike.",
     "geo_example": "ვიღაცამ სცადა ჩემი ველოსიპედი მოეპარა."
+  },
+  {
+    "english": "Go straight ahead.",
+    "georgian": "იარე პირდაპირ.",
+    "pronunciation": "/ɡoʊ streɪt əˈhɛd/",
+    "eng_example": "Go straight ahead until you reach the traffic lights.",
+    "geo_example": "იარე პირდაპირ, სანამ შუქნიშნებამდე მიხვალ."
+  },
+  {
+    "english": "Turn left.",
+    "georgian": "შეუხვიე მარცხნივ.",
+    "pronunciation": "/tɜːrn left/",
+    "eng_example": "Turn left at the next corner.",
+    "geo_example": "მომდევნო კუთხესთან შეუხვიე მარცხნივ."
+  },
+  {
+    "english": "Turn right.",
+    "georgian": "შეუხვიე მარჯვნივ.",
+    "pronunciation": "/tɜːrn raɪt/",
+    "eng_example": "Turn right after the bank.",
+    "geo_example": "ბანკის შემდეგ შეუხვიე მარჯვნივ."
+  },
+  {
+    "english": "Go past",
+    "georgian": "ჩაუვლი / გადააბიჯე (რაღაცას)",
+    "pronunciation": "/ɡoʊ pæst/",
+    "eng_example": "Go past the supermarket and you’ll see the park.",
+    "geo_example": "ჩაუვლი სუპერმარკეტს და პარკს დაინახავ."
+  },
+  {
+    "english": "It's on your left.",
+    "georgian": "მარცხნივ იქნება.",
+    "pronunciation": "/ɪts ɒn jɔː left/",
+    "eng_example": "The post office is on your left.",
+    "geo_example": "ფოსტა მარცხნივ იქნება."
+  },
+  {
+    "english": "It's on your right.",
+    "georgian": "მარჯვნივ იქნება.",
+    "pronunciation": "/ɪts ɒn jɔː raɪt/",
+    "eng_example": "The restaurant is on your right.",
+    "geo_example": "რესტორანი მარჯვნივ იქნება."
+  },
+  {
+    "english": "It's next to",
+    "georgian": "გვერდით არის.",
+    "pronunciation": "/ɪts nekst tuː/",
+    "eng_example": "The hotel is next to the museum.",
+    "geo_example": "სასტუმრო მუზეუმის გვერდითაა."
+  },
+  {
+    "english": "It's across from",
+    "georgian": "მოწინააღმდეგე მხარესაა / მოპირდაპირედაა.",
+    "pronunciation": "/ɪts əˈkrɒs frʌm/",
+    "eng_example": "The school is across from the library.",
+    "geo_example": "სკოლა ბიბლიოთეკის მოპირდაპირედაა."
+  },
+  {
+    "english": "It's behind",
+    "georgian": "უკანაა.",
+    "pronunciation": "/ɪts bɪˈhaɪnd/",
+    "eng_example": "The park is behind the shopping center.",
+    "geo_example": "პარკი სავაჭრო ცენტრის უკანაა."
+  },
+  {
+    "english": "It's in front of",
+    "georgian": "წინ არის.",
+    "pronunciation": "/ɪts ɪn frʌnt ʌv/",
+    "eng_example": "The bus stop is in front of the school.",
+    "geo_example": "ავტობუსის გაჩერება სკოლის წინაა."
+  },
+  {
+    "english": "Go along this road.",
+    "georgian": "იარე ამ გზაზე პირდაპირ.",
+    "pronunciation": "/ɡoʊ əˈlɔːŋ ðɪs roʊd/",
+    "eng_example": "Go along this road until you reach the bridge.",
+    "geo_example": "იარე ამ გზაზე სანამ ხიდამდე მიხვალ."
+  },
+  {
+    "english": "Take the second street on the left.",
+    "georgian": "მეორე ქუჩაზე შეუხვიე მარცხნივ.",
+    "pronunciation": "/teɪk ðə ˈsekənd striːt ɒn ðə left/",
+    "eng_example": "Take the second street on the left after the cinema.",
+    "geo_example": "კინოთეატრის შემდეგ მეორე ქუჩაზე შეუხვიე მარცხნივ."
+  },
+  {
+    "english": "At the corner, turn right.",
+    "georgian": "კუთხესთან შეუხვიე მარჯვნივ.",
+    "pronunciation": "/æt ðə ˈkɔːrnər tɜːrn raɪt/",
+    "eng_example": "At the corner, turn right and you'll see the café.",
+    "geo_example": "კუთხესთან შეუხვიე მარჯვნივ და კაფეს დაინახავ."
+  },
+  {
+    "english": "Go back.",
+    "georgian": "დაბრუნდი უკან.",
+    "pronunciation": "/ɡoʊ bæk/",
+    "eng_example": "Go back the same way you came.",
+    "geo_example": "დაბრუნდი იმავე გზით, რომლითაც მოხვედი."
+  },
+  {
+    "english": "It's at the corner.",
+    "georgian": "კუთხეშია.",
+    "pronunciation": "/ɪts æt ðə ˈkɔːrnər/",
+    "eng_example": "The café is at the corner of the street.",
+    "geo_example": "კაფე ქუჩის კუთხეშია."
+  },
+  {
+    "english": "It's near",
+    "georgian": "ახლოსაა / მახლობლადაა.",
+    "pronunciation": "/ɪts nɪr/",
+    "eng_example": "The station is near the park.",
+    "geo_example": "სადგური პარკთან ახლოსაა."
+  },
+  {
+    "english": "It's far from here.",
+    "georgian": "აქედან შორსაა.",
+    "pronunciation": "/ɪts fɑːr frʌm hɪər/",
+    "eng_example": "The airport is far from here.",
+    "geo_example": "აეროპორტი აქედან შორსაა."
+  },
+  {
+    "english": "Go straight and then turn right.",
+    "georgian": "იარე პირდაპირ და მერე შეუხვიე მარჯვნივ.",
+    "pronunciation": "/ɡoʊ streɪt ənd ðen tɜːrn raɪt/",
+    "eng_example": "Go straight and then turn right at the traffic lights.",
+    "geo_example": "იარე პირდაპირ და შუქნიშანთან შეუხვიე მარჯვნივ."
+  },
+  {
+    "english": "Follow the signs.",
+    "georgian": "დაეყრდენი ნიშნებს / მიჰყევი ნიშნებს.",
+    "pronunciation": "/ˈfɒloʊ ðə saɪnz/",
+    "eng_example": "Follow the signs to the museum.",
+    "geo_example": "მუზეუმისკენ მიმავალ ნიშნებს მიჰყევი."
+  },
+  {
+    "english": "You can’t miss it.",
+    "georgian": "ვერ ჩაგივლის / აუცილებლად დაინახავ.",
+    "pronunciation": "/juː kænt mɪs ɪt/",
+    "eng_example": "The hotel is very big – you can’t miss it.",
+    "geo_example": "სასტუმრო ძალიან დიდია – ვერ გამოგეპარება."
+  },
+  {
+    "english": "behind",
+    "georgian": "უკან / უკან მდებარე",
+    "pronunciation": "/bɪˈhaɪnd/",
+    "eng_example": "The garden is behind the house.",
+    "geo_example": "ბაღი სახლის უკანაა."
+  },
+  {
+    "english": "flat",
+    "georgian": "ბინა (ბრიტანული ინგლისური)",
+    "pronunciation": "/flæt/",
+    "eng_example": "They live in a small flat in London.",
+    "geo_example": "ისინი ლონდონში პატარა ბინაში ცხოვრობენ."
+  },
+  {
+    "english": "apartment",
+    "georgian": "ბინა / ბინა(ამერიკული ინგლისური)",
+    "pronunciation": "/əˈpɑːrtmənt/",
+    "eng_example": "We just moved into a new apartment.",
+    "geo_example": "ახლახან გადავედით ახალ ბინაში."
+  },
+  {
+    "english": "block",
+    "georgian": "შენობა / კორპუსი / კვარტალი",
+    "pronunciation": "/blɒk/",
+    "eng_example": "They live in a large apartment block.",
+    "geo_example": "ისინი დიდ კორპუსში ცხოვრობენ."
+  },
+  {
+    "english": "I'm about to leave",
+    "georgian": "ახლა უნდა წავიდე / წამს ვაპირებ წასვლას",
+    "pronunciation": "/aɪm əˈbaʊt tuː liːv/",
+    "eng_example": "Hurry up, I'm about to leave!",
+    "geo_example": "დაიჩქარე, უკვე წასვლას ვაპირებ!"
+  },
+  {
+    "english": "sense of",
+    "georgian": "გრძნობა / შეგრძნება (რაღაცის მიმართ)",
+    "pronunciation": "/sens ʌv/",
+    "eng_example": "He has a good sense of humor.",
+    "geo_example": "მას კარგი იუმორის გრძნობა აქვს."
+  },
+  {
+    "english": "sign",
+    "georgian": "ნიშანი / აბრა / ნიშნა",
+    "pronunciation": "/saɪn/",
+    "eng_example": "Look at the sign on the wall.",
+    "geo_example": "შეხედე კედელზე არსებულ ნიშნას."
+  },
+  {
+    "english": "get to",
+    "georgian": "მივიდე / მივაღწიო (ადგილამდე)",
+    "pronunciation": "/ɡet tuː/",
+    "eng_example": "How can I get to the station?",
+    "geo_example": "როგორ მივიდე სადგურამდე?"
+  },
+  {
+    "english": "onto",
+    "georgian": "ზემოთ / ზედაპირზე (რაღაცაზე ასვლა)",
+    "pronunciation": "/ˈɒn.tuː/",
+    "eng_example": "He climbed onto the roof.",
+    "geo_example": "ის სახურავზე ავიდა."
+  },
+  {
+    "english": "I think so",
+    "georgian": "მგონი კი / ასე მგონია / ალბათ კი",
+    "pronunciation": "/aɪ θɪŋk soʊ/",
+    "eng_example": "Do you like this movie? — I think so.",
+    "geo_example": "გიყვარს ეს ფილმი? — მგონი კი."
+  },
+  {
+    "english": "avenue",
+    "georgian": "გამზირი",
+    "pronunciation": "/ˈævənjuː/",
+    "eng_example": "The restaurant is on Fifth Avenue.",
+    "geo_example": "რესტორანი მეხუთე გამზირზე მდებარეობს."
+  },
+  {
+    "english": "across the road",
+    "georgian": "გზის მეორე მხარეს",
+    "pronunciation": "/əˈkrɒs ðə roʊd/",
+    "eng_example": "The bank is across the road from the post office.",
+    "geo_example": "ბანკი ფოსტის მეორე მხარესაა."
+  },
+  {
+    "english": "entrance",
+    "georgian": "სადარბაზო / შესასვლელი",
+    "pronunciation": "/ˈentrəns/",
+    "eng_example": "The entrance to the building is on the left.",
+    "geo_example": "შენობის შესასვლელი მარცხენა მხარესაა."
   }
 ]
