@@ -2154,5 +2154,110 @@
     "pronunciation": "/ˈentrəns/",
     "eng_example": "The entrance to the building is on the left.",
     "geo_example": "შენობის შესასვლელი მარცხენა მხარესაა."
+  },
+  {
+    "english": "candy",
+    "georgian": "ტკბილეული",
+    "pronunciation": "/ˈkændi/",
+    "eng_example": "The children got some candy after dinner.",
+    "geo_example": "ბავშვებმა ვახშმის შემდეგ ტკბილეული მიიღეს."
+  },
+  {
+    "english": "consonants",
+    "georgian": "თანხმოვნები",
+    "pronunciation": "/ˈkɒnsənənts/",
+    "eng_example": "There are twenty-one consonants in the English alphabet.",
+    "geo_example": "ინგლისურ ანბანში ოცდაერთი თანხმოვანია."
+  },
+  {
+    "english": "sick",
+    "georgian": "ავადმყოფი / ცუდად მყოფი",
+    "pronunciation": "/sɪk/",
+    "eng_example": "She stayed home because she was sick.",
+    "geo_example": "ის სახლში დარჩა, რადგან ავად იყო."
+  },
+  {
+    "english": "pool",
+    "georgian": "აუზი",
+    "pronunciation": "/puːl/",
+    "eng_example": "We swam in the pool all afternoon.",
+    "geo_example": "ჩვენ მთელი დღე აუზში ვცურავდით."
+  },
+  {
+    "english": "began",
+    "georgian": "დაიწყო / დაიწყო (begin-ის წარსული ფორმა)",
+    "pronunciation": "/bɪˈɡæn/",
+    "eng_example": "It began to rain in the evening.",
+    "geo_example": "საღამოს წვიმა დაიწყო."
+  },
+  {
+    "english": "caught",
+    "georgian": "დაიჭირა / დაიჭირა (catch-ის წარსული ფორმა)",
+    "pronunciation": "/kɔːt/",
+    "eng_example": "He caught the ball easily.",
+    "geo_example": "მან ბურთი მარტივად დაიჭირა."
+  },
+  {
+    "english": "chose",
+    "georgian": "აირჩია / აირჩია (choose-ის წარსული ფორმა)",
+    "pronunciation": "/tʃoʊz/",
+    "eng_example": "She chose the red dress for the party.",
+    "geo_example": "მან წითელი კაბა აირჩია წვეულებისთვის."
+  },
+  {
+    "english": "come",
+    "georgian": "მოსვლა",
+    "pronunciation": "/kʌm/",
+    "eng_example": "Please come here for a moment.",
+    "geo_example": "გთხოვ, წამოდი აქ წამით."
+  },
+  {
+    "english": "came",
+    "georgian": "მოვიდა / მოვიდა (come-ის წარსული ფორმა)",
+    "pronunciation": "/keɪm/",
+    "eng_example": "He came late to the meeting.",
+    "geo_example": "ის შეხვედრაზე გვიან მოვიდა."
+  },
+  {
+    "english": "did",
+    "georgian": "გააკეთა / გააკეთა (do-ის წარსული ფორმა)",
+    "pronunciation": "/dɪd/",
+    "eng_example": "I did my homework yesterday.",
+    "geo_example": "გუშინ დავალება გავაკეთე."
+  },
+  {
+    "english": "drank",
+    "georgian": "დალია / დალია (drink-ის წარსული ფორმა)",
+    "pronunciation": "/dræŋk/",
+    "eng_example": "They drank coffee in the morning.",
+    "geo_example": "მათ დილას ყავა დალიეს."
+  },
+  {
+    "english": "drove",
+    "georgian": "მართა / მართა (drive-ის წარსული ფორმა)",
+    "pronunciation": "/droʊv/",
+    "eng_example": "He drove to work today.",
+    "geo_example": "მან დღეს მანქანით წავიდა სამსახურში."
+  },
+  {
+    "english": "ate",
+    "georgian": "შეჭამა / შეჭამა (eat-ის წარსული ფორმა)",
+    "pronunciation": "/eɪt/",
+    "eng_example": "She ate all the cookies.",
+    "geo_example": "მან ყველა ფუნთუშა შეჭამა."
+  },
+  {
+    "english": "feel",
+    "georgian": "გრძნობა",
+    "pronunciation": "/fiːl/",
+    "eng_example": "I feel happy today.",
+    "geo_example": "დღეს ბედნიერი ვარ."
+  },
+  {
+    "english": "felt",
+    "georgian": "იგრძნო / იგრძნო (feel-ის წარსული ფორმა)",
+    "pronunciation": "/felt/",
+    "eng_example": "He felt tired after the long walk.",
+    "geo_example": "გრძელი სეირნობის შემდეგ დაღლილობა იგრძნო."
   }
 ]
