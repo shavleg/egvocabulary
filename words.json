@@ -2259,5 +2259,75 @@
     "pronunciation": "/felt/",
     "eng_example": "He felt tired after the long walk.",
     "geo_example": "გრძელი სეირნობის შემდეგ დაღლილობა იგრძნო."
+  },
+  {
+    "english": "mention",
+    "georgian": "ხსენება / მითითება",
+    "pronunciation": "/ˈmenʃən/",
+    "eng_example": "He didn’t mention anything about his trip.",
+    "geo_example": "მან თავისი მოგზაურობის შესახებ არაფერი ახსენა."
+  },
+  {
+    "english": "siblings",
+    "georgian": "ძმები და დები",
+    "pronunciation": "/ˈsɪblɪŋz/",
+    "eng_example": "Do you have any siblings?",
+    "geo_example": "გყავს და ან ძმა?"
+  },
+  {
+    "english": "aunt",
+    "georgian": "დეიდა / მამიდა",
+    "pronunciation": "/ænt/ ან /ɑːnt/",
+    "eng_example": "My aunt lives in London.",
+    "geo_example": "ჩემი დეიდა ლონდონში ცხოვრობს."
+  },
+  {
+    "english": "uncle",
+    "georgian": "ბიძა",
+    "pronunciation": "/ˈʌŋkəl/",
+    "eng_example": "My uncle is coming to visit us tomorrow.",
+    "geo_example": "ჩემი ბიძა ხვალ მოსანახულებლად მოდის."
+  },
+  {
+    "english": "cousin",
+    "georgian": "ბიძაშვილი / დეიდაშვილი",
+    "pronunciation": "/ˈkʌzən/",
+    "eng_example": "My cousin and I are the same age.",
+    "geo_example": "მე და ჩემი ბიძაშვილი ერთი ასაკის ვართ."
+  },
+  {
+    "english": "magazine",
+    "georgian": "ჟურნალი",
+    "pronunciation": "/ˌmæɡəˈziːn/",
+    "eng_example": "She bought a fashion magazine at the store.",
+    "geo_example": "მან მაღაზიაში მოდის ჟურნალი იყიდა."
+  },
+  {
+    "english": "birth parents",
+    "georgian": "ბიოლოგიური მშობლები",
+    "pronunciation": "/bɜːrθ ˈperənts/",
+    "eng_example": "He met his birth parents when he was twenty.",
+    "geo_example": "მან ბიოლოგიური მშობლები ოც წლის ასაკში გაიცნო."
+  },
+  {
+    "english": "adopted",
+    "georgian": "შვილად აყვანილი",
+    "pronunciation": "/əˈdɒptɪd/",
+    "eng_example": "She was adopted when she was a baby.",
+    "geo_example": "ის ბავშვობაში შვილად აიყვანეს."
+  },
+  {
+    "english": "found out",
+    "georgian": "გაიგო / აღმოაჩინა",
+    "pronunciation": "/faʊnd aʊt/",
+    "eng_example": "He found out the truth about his family.",
+    "geo_example": "მან თავისი ოჯახის შესახებ სიმართლე გაიგო."
+  },
+  {
+    "english": "worth",
+    "georgian": "ღირს / ღირებულება",
+    "pronunciation": "/wɜːrθ/",
+    "eng_example": "This painting is worth a lot of money.",
+    "geo_example": "ეს ნახატი ძალიან ძვირფასია."
   }
 ]
