@@ -2329,5 +2329,26 @@
     "pronunciation": "/wɜːrθ/",
     "eng_example": "This painting is worth a lot of money.",
     "geo_example": "ეს ნახატი ძალიან ძვირფასია."
+  },
+  {
+    "english": "granddaughter",
+    "georgian": "შვილიშვილი (გოგო)",
+    "pronunciation": "/ˈɡrændˌdɔːtər/",
+    "eng_example": "My granddaughter loves to draw.",
+    "geo_example": "ჩემ შვილიშვილ გოგოს ხატვა უყვარს."
+  },
+  {
+    "english": "grandson",
+    "georgian": "შვილიშვილი (ბიჭი)",
+    "pronunciation": "/ˈɡrænˌsʌn/",
+    "eng_example": "His grandson is learning to ride a bike.",
+    "geo_example": "მისი შვილიშვილ ბიჭი ველოსიპედზე სეირნობას სწავლობს."
+  },
+  {
+    "english": "sold",
+    "georgian": "გაყიდა (sell-ის წარსული ფორმა)",
+    "pronunciation": "/soʊld/",
+    "eng_example": "He sold his old car last week.",
+    "geo_example": "მან გასულ კვირას თავისი ძველი მანქანა გაყიდა."
   }
 ]
