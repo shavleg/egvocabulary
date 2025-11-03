@@ -2350,5 +2350,124 @@
     "pronunciation": "/soʊld/",
     "eng_example": "He sold his old car last week.",
     "geo_example": "მან გასულ კვირას თავისი ძველი მანქანა გაყიდა."
+  },
+  {
+    "english": "please put him on the phone",
+    "georgian": "გთხოვ, მიეცი ტელეფონი (მას)",
+    "pronunciation": "/pliːz pʊt hɪm ɒn ðə foʊn/",
+    "eng_example": "Please put him on the phone, I need to talk to him.",
+    "geo_example": "გთხოვ, მიეცი ტელეფონი, უნდა ველაპარაკო."
+  },
+  {
+    "english": "it rang so many times",
+    "georgian": "ის უამრავჯერ დარეკა",
+    "pronunciation": "/ɪt ræŋ soʊ ˈmɛni taɪmz/",
+    "eng_example": "It rang so many times but no one answered.",
+    "geo_example": "ის ბევრჯერ დარეკა, მაგრამ არავინ უპასუხა."
+  },
+  {
+    "english": "we need to pick her up",
+    "georgian": "უნდა წავიყვანოთ / ავიყვანოთ (ის)",
+    "pronunciation": "/wi niːd tə pɪk hɜːr ʌp/",
+    "eng_example": "We need to pick her up from the airport.",
+    "geo_example": "უნდა წავიყვანოთ აეროპორტიდან."
+  },
+  {
+    "english": "take her to",
+    "georgian": "დავუკავდეთ / მივიყვანოთ (ის) სადმე",
+    "pronunciation": "/teɪk hɜːr tuː/",
+    "eng_example": "We will take her to the doctor.",
+    "geo_example": "მას ექიმთან მივიყვანთ."
+  },
+  {
+    "english": "trouble",
+    "georgian": "პრობლემა / უსიამოვნება",
+    "pronunciation": "/ˈtrʌbəl/",
+    "eng_example": "He is in trouble again.",
+    "geo_example": "ის ისევ პრობლემაშია."
+  },
+  {
+    "english": "promise",
+    "georgian": "პირობა / დაპირება",
+    "pronunciation": "/ˈprɒmɪs/",
+    "eng_example": "I promise I will help you.",
+    "geo_example": "გპირდები, დაგეხმარები."
+  },
+  {
+    "english": "what is going on?",
+    "georgian": "რა ხდება?",
+    "pronunciation": "/wʌt ɪz ˈɡoʊɪŋ ɒn/",
+    "eng_example": "What is going on here?",
+    "geo_example": "აქ რა ხდება?"
+  },
+  {
+    "english": "beat",
+    "georgian": "ცემვა / დამარცხება",
+    "pronunciation": "/biːt/",
+    "eng_example": "They beat the other team easily.",
+    "geo_example": "მათ მეორე გუნდი მარტივად დაამარცხეს."
+  },
+  {
+    "english": "are you kidding me?",
+    "georgian": "ხუმრობ? სერიოზულად?",
+    "pronunciation": "/ɑːr juː ˈkɪdɪŋ miː/",
+    "eng_example": "Are you kidding me? That can’t be true!",
+    "geo_example": "ხუმრობ? ეგ შეუძლებელია!"
+  },
+  {
+    "english": "got off",
+    "georgian": "ჩამოვიდა / გადავიდა (ტრანსპორტიდან)",
+    "pronunciation": "/ɡɒt ɒf/",
+    "eng_example": "She got off the bus at the next stop.",
+    "geo_example": "ის შემდეგ გაჩერებაზე ჩამოვიდა ავტობუსიდან."
+  },
+  {
+    "english": "being",
+    "georgian": "ყოფნა / ყოფნა როგორც მდგომარეობა",
+    "pronunciation": "/ˈbiːɪŋ/",
+    "eng_example": "Thank you for being here.",
+    "geo_example": "გმადლობ რომ აქ ხარ."
+  },
+  {
+    "english": "luggage",
+    "georgian": "ჩვეულებრივი ბარგი",
+    "pronunciation": "/ˈlʌɡɪdʒ/",
+    "eng_example": "Her luggage was too heavy.",
+    "geo_example": "მისი ბარგი ძალიან მძიმე იყო."
+  },
+  {
+    "english": "voicemail",
+    "georgian": "ხმოვანი შეტყობინება",
+    "pronunciation": "/ˈvɔɪsmeɪl/",
+    "eng_example": "I left him a voicemail.",
+    "geo_example": "ხმოვანი შეტყობინება ჩავუტოვე."
+  },
+  {
+    "english": "northern",
+    "georgian": "ჩრდილოეთის",
+    "pronunciation": "/ˈnɔːrðərn/",
+    "eng_example": "He lives in the northern part of the country.",
+    "geo_example": "ის ქვეყნის ჩრდილოეთ ნაწილში ცხოვრობს."
+  },
+  {
+    "english": "graduate",
+    "georgian": "დასრულება/დამთავრება (სკოლის, უნივერსიტეტის)",
+    "pronunciation": "/ˈɡrædʒuːeɪt/ (verb), /ˈɡrædʒuɪt/ (noun)",
+    "eng_example": "She will graduate from university next year.",
+    "geo_example": "ის მომავალი წელს დაასრულებს უნივერსიტეტს."
+  },
+  {
+    "english": "letter",
+    "georgian": "წერილი / ასო",
+    "pronunciation": "/ˈletər/",
+    "eng_example": "I received a letter from my friend.",
+    "geo_example": "მივიღე წერილი ჩემი მეგობრისგან."
+  },
+  {
+    "english": "relationship",
+    "georgian": "ურთიერთობა / კავშირი",
+    "pronunciation": "/rɪˈleɪʃənʃɪp/",
+    "eng_example": "They have a good relationship with their neighbors.",
+    "geo_example": "მათ კარგი ურთიერთობა აქვთ მეზობლებთან."
   }
 ]
